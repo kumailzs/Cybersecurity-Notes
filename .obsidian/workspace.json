@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Computer Network/01-Theory/08-TCP IP MODEL.md",
+                "file": "01-Computer Network/02-TryHackMe-Rooms/New.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-TCP IP MODEL"
+              "title": "New"
             }
           }
         ]
@@ -185,13 +185,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "96bd875aa43e5f3e",
   "lastOpenFiles": [
-    "01-Computer Network/01-Theory/07-OSI MODEL.md",
     "01-Computer Network/01-Theory/08-TCP IP MODEL.md",
+    "01-Computer Network/02-TryHackMe-Rooms/New.md",
+    "01-Computer Network/01-Theory/07-OSI MODEL.md",
     "Pasted image 20260920121619.png",
     "01-Computer Network/01-Theory/05-CLIENT SIDE MODEL AND PEER TO PEER MODEL.md",
     "01-Computer Network/01-Theory/04-BANDWIDTH, THROUGHPUT, LATENCY, JITTER.md",
