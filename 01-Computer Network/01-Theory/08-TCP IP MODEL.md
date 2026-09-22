@@ -52,4 +52,3 @@ This layer handles actual **frame transmission over the local network**:
 | **Ethernet (802.3)** | Wired LAN communication                                 |
 | **Wi-Fi (802.11)**   | Wireless LAN communication                              |
 | **ARP**              | Finds the corresponding MAC address for an IPv4 address |
-h
