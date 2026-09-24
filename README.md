@@ -84,19 +84,25 @@ Red Team Fundamentals
 
 ---
 
-## Repository Structure
+### Repository Structure
 
 ```text
 Cybersecurity-Notes/
 │
 ├── 01-Computer Network/
-│   ├── Networking Fundamentals
-│   ├── OSI Model
-│   ├── TCP/IP Model
-│   ├── IP Addressing
-│   ├── Subnetting
-│   ├── Protocols
-│   └── ...
+│   │
+│   ├── Theory/
+│   │   ├── Networking Fundamentals.md
+│   │   ├── OSI Model.md
+│   │   ├── TCP-IP Model.md
+│   │   ├── IP Addressing.md
+│   │   ├── Subnetting.md
+│   │   ├── Protocols.md
+│   │   └── ...
+│   │
+│   ├── TryHackMe Labs/
+│   │
+│   └── Cheatsheet/
 │
 ├── 02-Linux/
 │   └── Coming Soon
@@ -114,8 +120,6 @@ Cybersecurity-Notes/
 │   └── Coming Soon
 │
 └── README.md
-```
-
 ---
 
 ## 📚 Learning Method
