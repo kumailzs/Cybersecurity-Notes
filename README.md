@@ -64,7 +64,7 @@ Linux + Bash Scripting
 Windows + Active Directory
         │
         ▼
-Python
+ Python Programming 
         │
         ▼
 Web Fundamentals + JavaScript
