@@ -112,6 +112,43 @@ NetworkChuck's free CCNA material can be used as an additional resource when you
 
 Use this as a **supplementary resource**, not something you need to complete alongside every other course.
 
+### Practice
+
+TryHackMe networking rooms will be very helpful for turning the concepts you learn into practical skills. Complete these rooms **alongside the roadmap**, rather than waiting until you finish all the theory.
+
+**Recommended TryHackMe Networking Sequence**
+
+1. **What is Networking?**  
+    Start with the absolute basics: networks, the Internet, and fundamental networking terminology.
+    
+2. **Intro to LAN**  
+    Learn about Local Area Networks, network technologies, and basic LAN design.
+    
+3. **OSI Model**  
+    Build a strong understanding of the seven-layer OSI model and how network communication is structured.
+    
+4. **Packets & Frames**  
+    Learn how data is broken down, encapsulated, and transmitted across a network.
+    
+5. **Extending Your Network**  
+    Understand how networks are connected and extended beyond a local network.
+    
+6. **Introductory Networking**  
+    Reinforce the OSI/TCP-IP models and start working with practical networking tools such as `ping`, `traceroute`, and `dig`.
+    
+7. **Networking Concepts**  
+    Go deeper into IP addresses, subnets, routing, TCP/UDP, ports, and network communication.
+    
+8. **Networking Essentials**  
+    Practice important networking concepts including DHCP, ARP, ICMP, routing, and NAT.
+    
+9. **Networking Core Protocols**  
+    Learn and practice core protocols such as DNS, WHOIS, HTTP, FTP, SMTP, POP3, and IMAP. This is useful for understanding how common network services communicate.
+    
+10. **Wireshark 101**  
+    Apply your networking knowledge to real packet captures. Practice identifying and analyzing ARP, ICMP, TCP, DNS, and other traffic. TryHackMe recommends completing Introductory Networking first.
+
+
 ------------------------------------------------------------------------
 
   
