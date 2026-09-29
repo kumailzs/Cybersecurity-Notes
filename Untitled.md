@@ -25,67 +25,31 @@ Cybersecurity is not one job. It is a group of related fields.
 - Security Engineer / Cloud Security Engineer
 
 **Other related areas**
+- GRC (Governance, Risk, and Compliance)
+- Security Architecture
+- Security Consulting
 
-  
-
-GRC (Governance, Risk, and Compliance)
-
-Security Architecture
-
-Security Consulting
-
-  
-
-Realistic note: most entry-level openings are on the defensive side (for example SOC roles). Offensive roles exist in smaller numbers and usually expect prior experience, strong fundamentals, or a proven track record.
-
-  
-
-Why foundational skills come first
-
-  
-
+**Reality Check:** Most entry-level openings are on the defensive side (for example SOC roles). Offensive roles exist in smaller numbers and usually expect prior experience, strong fundamentals, or a proven track record.
+#### Why foundational skills come first
 Every security domain sits on top of general IT knowledge. A penetration tester who does not understand networking cannot explain why a scan result matters. A SOC analyst who does not understand Windows or Linux logs cannot tell normal activity from suspicious activity. Tools can be learned in days, but the understanding behind them takes longer, and it is what separates someone who runs tools from someone who can actually analyze a problem.
 
-  
-
 Skipping the foundation usually leads to one of two outcomes: getting stuck as soon as a task goes beyond a tutorial, or memorizing steps without knowing why they work. Neither holds up in a real job or a technical interview.
-
-  
-
-What we will learn: Foundation (common for everyone)
-
-Networking: TCP/IP, OSI, DNS, HTTP, ports, Wireshark
-
-Linux: file system, permissions, processes, services, logs
-
-Bash: scripting, grep/awk/sed, automation
-
-Windows: registry, services, event logs, PowerShell basics
-
-Active Directory Fundamentals: domain, users/groups, GPO, Kerberos/NTLM basics, LDAP
-
-Python: scripting, networking, APIs, small tools
-
-Web Fundamentals: requests/responses, cookies/sessions, HTML/JS, authentication flows
-
-Core Security Concepts: CIA triad, crypto basics, authN/authZ, common attacks, threat modeling
-
-Basic Cloud Concepts: IaaS/PaaS/SaaS, IAM, shared responsibility model
-
-The value of this foundation
-
-It applies to both offensive and defensive paths, so you can choose a direction later with more information.
-
-It makes advanced topics (exploitation, forensics, detection engineering) far easier to learn because you already understand what is underneath them.
-
-It helps you troubleshoot on your own instead of depending on step-by-step guides.
-
-Interviewers in this field tend to test fundamentals (networking, OS behavior, how authentication works) more than tool knowledge.
-
-Timeline
-
-  
-
+#### What we will learn: Foundation (common for everyone)
+- Networking: TCP/IP, OSI, DNS, HTTP, ports, Wireshark
+- Linux: file system, permissions, processes, services, logs
+- Bash: scripting, grep/awk/sed, automation
+- Windows: registry, services, event logs, PowerShell basics
+- Active Directory Fundamentals: domain, users/groups, GPO, Kerberos/NTLM basics, LDAP
+- Python: scripting, networking, APIs, small tools
+- Web Fundamentals: requests/responses, cookies/sessions, HTML/JS, authentication flows
+- Core Security Concepts: CIA triad, crypto basics, authN/authZ, common attacks, threat modeling
+- Basic Cloud Concepts: IaaS/PaaS/SaaS, IAM, shared responsibility model
+#### The value of this foundation
+- It applies to both offensive and defensive paths, so you can choose a direction later with more information.
+- It makes advanced topics (exploitation, forensics, detection engineering) far easier to learn because you already understand what is underneath them.
+- It helps you troubleshoot on your own instead of depending on step-by-step guides.
+- Interviewers in this field tend to test fundamentals (networking, OS behavior, how authentication works) more than tool knowledge.
+#### Timeline
 The timeline depends on the individual: prior experience, hours per day, consistency, and how much is practiced hands-on rather than only watched or read. For someone starting from scratch and studying regularly, completing the foundation properly often takes several months to a year or more. Anyone promising a much shorter path is likely leaving gaps.
 
   
