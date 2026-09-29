@@ -700,7 +700,7 @@ Create small scenarios and identify the relevant concept:
 This is enough practice for this phase. You don't need advanced exploitation labs yet.
 
 ----
-### Phase 9: Basic Cloud Concepts
+### Phase 8: Basic Cloud Concepts
 
 **What it is:**  
 Cloud computing means using computing resources such as servers, storage, and networking over the internet. Cybersecurity mein basic cloud concepts samajhna important hai because modern organizations commonly use cloud environments.
