@@ -225,6 +225,24 @@ Work through the labs gradually and apply the Linux concepts you have already le
 10. **Input handling:** read, user prompts, validating input
 11. **Automation:** cron, combining commands, simple log parsing scripts, batch file operations
 12. **Debugging:** set -x, error handling, checking exit status
+## Recommended Resources
+
+**Linuxize — Bash Scripting Fundamentals**
+**Free:** Yes
+
+Use the **Bash Scripting Fundamentals** series as the primary resource. It is a 50-part series covering Bash from the basics through scripting and automation, including variables, environment variables, I/O and redirection, conditionals, loops, functions, arguments, exit codes, and debugging-related topics.
+
+[Linuxize — Bash Scripting Fundamentals](https://linuxize.com/series/bash-scripting-fundamentals/?utm_source=chatgpt.com)
+
+**freeCodeCamp — Bash Scripting Tutorial for Beginners
+Free:** Yes
+This beginner-friendly tutorial covers commands, creating scripts, variables, positional arguments, input/output redirection, `if/elif/else`, `case`, loops, functions, exit codes, `awk`, and `sed`.
+Use it when you want a **video-based explanation** or another explanation of a topic you find difficult.
+
+**GNU Bash Reference Manual
+Use the official Bash documentation as a **reference** when you need to understand specific Bash features or behavior in more depth.
+
+[GNU Bash Reference Manual](https://www.gnu.org/software/bash/manual/?utm_source=chatgpt.com)
 
 
   
