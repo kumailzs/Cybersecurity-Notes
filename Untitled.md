@@ -78,8 +78,39 @@ The timeline depends on the individual: prior experience, hours per day, consist
 11. **Wireless basics:** Wi-Fi standards, WEP/WPA2/WPA3
 12. **Command-line network tools:** ping, traceroute, nslookup/dig, netstat/ss, ipconfig/ifconfig/ip
 13. **Packet analysis:** Wireshark, tcpdump, capture filters vs display filters, following a stream, analyzing a TCP handshake, DNS and HTTP traffic
-
+### Recommended Resources
   
+You can use the following resources to build your networking foundation. You do **not** need to use all of them at once — pick one as your primary resource and use the others for clarification or additional practice.
+
+**Professor Messer — CompTIA Network+ N10-009**
+**Free:** Yes
+Professor Messer's N10-009 Network+ course provides structured coverage of networking fundamentals, including OSI, networking devices, protocols, IPv4/IPv6, subnetting, routing, switching, wireless networking, and more. The course currently contains 87 free videos with nearly 13 hours of total runtime.
+
+[Professor Messer — N10-009 Network+ Training Course](https://www.professormesser.com/network-plus/n10-009/n10-009-video/n10-009-training-course/?utm_source=chatgpt.com)
+
+**Cisco Skills for All — Networking Basics**
+**Free:** Yes
+Use the **Networking Basics** course from Cisco Skills for All.
+
+- Enroll for free.
+    
+- Complete **Module 1 → Module 15 in order**.
+    
+- Take the quiz after each module.
+    
+- Aim for **80%+** on each quiz.
+    
+- If you score below 80%, review the module and retake the quiz.
+    
+- Spend extra time on **Module 9 — Subnetting**, as subnetting is an important networking skill.
+
+[Cisco Skills for All — Networking Basics](https://skillsforall.com/course/networking-basics?utm_source=chatgpt.com)
+
+**NetworkChuck — Free CCNA Course**
+**Free:** Yes
+NetworkChuck's free CCNA material can be used as an additional resource when you want deeper explanations and practical networking concepts. His free CCNA series covers topics such as network devices, OSI/TCP-IP, Ethernet, IP addressing, subnetting, and other CCNA-level networking concepts.
+
+Use this as a **supplementary resource**, not something you need to complete alongside every other course.
 
 ------------------------------------------------------------------------
 
