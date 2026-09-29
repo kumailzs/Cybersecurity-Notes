@@ -299,13 +299,13 @@ Use this for the basics of PowerShell: cmdlets, pipeline, variables, `Get-Help`,
 **Hack The Box Academy — Windows Fundamentals
 
 Use HTB Academy's **Windows Fundamentals** material for additional hands-on learning and exercises covering Windows administration and security concepts.
-## Practice
+### Practice
 
-### 1. TryHackMe — Windows Fundamentals
+**TryHackMe — Windows Fundamentals
 
 Complete the **Windows Fundamentals** rooms to practice Windows filesystem, users, permissions, processes, networking, and security concepts in a hands-on environment.
 
-### 2. Your Own Windows VM
+**Your Own Windows VM
 
 Install Windows in a VM and practice the basics yourself:
 
@@ -324,16 +324,81 @@ Install Windows in a VM and practice the basics yourself:
 - Windows networking
     
 - Firewall and security settings
-    
-
-**Practice flow:**
-
-**Learn → Practice in your VM → Complete the relevant TryHackMe room → Take notes → Move on**
 
 ---
+### Phase 6: Python
 
-------------------------------------------------------------------------
+**What it is:** Python is a general-purpose programming language. In security it is used to automate tasks, parse data, interact with APIs, and build small custom tools.
 
+**What to learn:**
+
+1. **Setup:** installing Python, running scripts, virtual environments, pip
+2. **Basics:** variables, data types (int, float, string, boolean), operators, input/output
+3. **Control flow:** if/elif/else, for and while loops, break/continue
+4. **Data structures:** lists, tuples, dictionaries, sets
+5. **Functions:** defining functions, arguments, return values, scope
+6. **Modules and libraries:** importing, creating your own modules, standard library overview
+7. **File handling:** reading and writing files, working with CSV and JSON, parsing logs
+8. **Error handling:** try/except, common exceptions, basic debugging
+9. **String handling and regex:** string methods, formatting, the re module
+10. **Object-oriented basics:** classes, objects, methods (basic level only)
+11. **Networking with Python:** socket module, simple TCP client/server, port scanner concept
+12. **Web and APIs:** requests library, working with REST APIs, parsing JSON responses, basic web scraping
+13. **System interaction:** os, sys, subprocess, argparse for command-line tools
+14. **Small projects:** log analyzer, simple port scanner, password strength checker, file hash checker, API-based IP lookup tool
+### Recommended Resources
+
+**CS50P — Introduction to Programming with Python**
+
+**Free:** Yes
+
+Use CS50P as the primary resource for learning Python fundamentals, including variables, data types, control flow, functions, data structures, exceptions, libraries, and file handling.
+
+[CS50P — Harvard](https://cs50.harvard.edu/python/)
+
+**Automate the Boring Stuff with Python**
+
+**Free:** Yes
+
+Use this for practical Python and automation, especially file handling, regular expressions, working with data, and automating repetitive tasks.
+
+[Automate the Boring Stuff](https://automatetheboringstuff.com/)
+
+**Real Python**
+
+Use Real Python as a reference for specific topics such as `requests`, sockets, JSON, regex, file handling, and `subprocess`.
+
+[Real Python](https://realpython.com/)
+
+### Practice
+
+**Exercism — Python Track**
+
+Solve beginner Python exercises to improve programming fundamentals, problem-solving, functions, data structures, and clean code.
+
+[Exercism — Python](https://exercism.org/tracks/python)
+
+**HackerRank — Python**
+
+Use HackerRank for additional beginner-level Python exercises covering strings, collections, functions, and problem solving.
+
+[HackerRank — Python](https://www.hackerrank.com/domains/python)
+
+**Small Projects**
+
+Build a few small projects after learning the fundamentals:
+
+- Log analyzer
+    
+- Simple port scanner
+    
+- File hash checker
+- API-based IP lookup tool
+    
+- Rewrite one of your Bash scripts in Python
+    
+
+Keep your projects in a GitHub repository and document what each project does.
   
 
 # Phase 4 --- Python Programming
