@@ -59,115 +59,25 @@ The timeline depends on the individual: prior experience, hours per day, consist
 ### Roadmap Overview
 
 > This roadmap has 9 foundation phases. Each phase builds on the previous one, and all of them are common for both offensive and defensive paths. After completing the foundation, you can choose a specialization.
-### Phase 0 --- Lab Setup
+### Phase 1: Networking
 
-**Time:** 2--3 days
+**What it is:** Networking is how devices communicate and exchange data. Almost every attack and defense happens over a network, so this is the base for everything else.
 
-  
+**What to learn:**
 
-## What to Learn
-
-  
-
-Understand:
-
-  
-
-- What a virtual machine is
-
-- How VirtualBox works
-
-- How to create/import a VM
-
-- Basic VM networking
-
-- How two VMs communicate
-
-- How to safely practice inside an isolated lab
-
-  
-
-## Recommended Lab
-
-  
-
-### VirtualBox
-
-  
-
-https://www.virtualbox.org/
-
-  
-
-Use VirtualBox to create an isolated practice environment.
-
-  
-
-### Ubuntu
-
-  
-
-https://ubuntu.com/download/desktop
-
-  
-
-Use Ubuntu as the main Linux learning machine.
-
-  
-
-### Kali Linux
-
-  
-
-https://www.kali.org/get-kali/
-
-  
-
-Kali can be kept for later security tooling. At this foundation stage,
-
-the priority is learning Linux itself rather than relying on Kali tools.
-
-  
-
-### Optional Vulnerable Machines
-
-  
-
-- Metasploitable2
-
-- DVWA
-
-  
-
-Keep intentionally vulnerable applications isolated from the public
-
-internet and use them later when the relevant fundamentals have been
-
-learned.
-
-  
-
-## Practice
-
-  
-
-- Start two VMs.
-
-- Configure their virtual networking.
-
-- Verify that they can communicate with each other using `ping`.
-
-  
-
-## Phase Goal
-
-  
-
-You should understand:
-
-  
-
-> VM → virtual network → IP address → communication between machines
+1. **Network basics:** what a network is, LAN / WAN / MAN, client-server model, peer-to-peer, network topologies
+2. **Network devices:** hub, switch, router, modem, access point, firewall
+3. **Reference models:** OSI model (7 layers), TCP/IP model, encapsulation and decapsulation
+4. **Addressing:** MAC address, IPv4, IPv6, public vs private IPs, subnet mask, CIDR, subnetting, default gateway
+5. **Core supporting protocols:** ARP, ICMP (ping, traceroute), DHCP
+6. **DNS:** how name resolution works, record types (A, AAAA, CNAME, MX, NS, TXT), recursive vs authoritative servers
+7. **Transport layer:** TCP vs UDP, ports and sockets, three-way handshake, flags (SYN, ACK, FIN, RST), connection teardown
+8. **Application layer protocols:** HTTP/HTTPS, FTP/SFTP, SSH, Telnet, SMTP/POP3/IMAP, SMB, RDP, SNMP
+9. **Switching and routing:** VLANs, trunking, routing tables, static vs dynamic routing, NAT and PAT
+10. **Network security basics:** firewalls, ACLs, proxies, VPNs, IDS/IPS
+11. **Wireless basics:** Wi-Fi standards, WEP/WPA2/WPA3
+12. **Command-line network tools:** ping, traceroute, nslookup/dig, netstat/ss, ipconfig/ifconfig/ip
+13. **Packet analysis:** Wireshark, tcpdump, capture filters vs display filters, following a stream, analyzing a TCP handshake, DNS and HTTP traffic
 
   
 
