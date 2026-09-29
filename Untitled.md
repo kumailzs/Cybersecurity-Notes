@@ -59,9 +59,7 @@ The timeline depends on the individual: prior experience, hours per day, consist
 ### Roadmap Overview
 
 > This roadmap has 9 foundation phases. Each phase builds on the previous one, and all of them are common for both offensive and defensive paths. After completing the foundation, you can choose a specialization.
-# Phase 0 --- Lab Setup
-
-  
+### Phase 0 --- Lab Setup
 
 **Time:** 2--3 days
 
