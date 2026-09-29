@@ -397,7 +397,7 @@ Build a few small projects after learning the fundamentals:
 Keep your projects in a GitHub repository and document what each project does.
 
 -------
-### Phase 7: Web Fundamentals
+### Phase 6: Web Fundamentals
 
 **What it is:** Web fundamentals cover how websites and web applications work. Web applications are one of the most common attack surfaces, so this knowledge is needed for both testing and defending them.
 
@@ -417,9 +417,146 @@ Keep your projects in a GitHub repository and document what each project does.
 12. **Authentication flows:** username/password login, session-based auth, token-based auth (JWT), OAuth 2.0 overview, SSO, MFA
 13. **Browser developer tools:** Network tab, inspecting requests, storage, console
 14. **Proxy tools:** intercepting and viewing traffic using Burp Suite or OWASP ZAP (viewing level only at this stage)
-  
+### Recommended Resources
+
+**MDN Web Docs**
+
+**Free:** Yes
+
+Use MDN as the primary resource. After opening it, focus on:
+
+- **HTTP** — requests, responses, methods, headers, status codes
+- **HTML** — document structure, links, forms, inputs
+- **CSS** — basic syntax and how styling works
+- **JavaScript** — variables, functions, DOM, events
+- **Cookies** — cookies and their security attributes
+- **CORS** — same-origin policy and cross-origin requests
+
+[MDN Web Docs](https://developer.mozilla.org/)
+
+**PortSwigger Web Security Academy**
+
+**Free:** Yes
+
+Read the learning material for:
+
+- **HTTP basics**
+- **Authentication**
+- **Access control**
+- **Session management**
+- **CORS**
+- **APIs**
+
+At this stage, focus on understanding **how these technologies work**, not advanced exploitation.
+
+[PortSwigger Web Security Academy](https://portswigger.net/web-security)
+
+**TryHackMe — Web Fundamentals**
+
+Complete the beginner **Web Fundamentals** material to reinforce:
+
+- How the web works
+- DNS
+- HTTP
+- Web requests and responses
+- Basic web architecture
+
+[TryHackMe — Web Fundamentals](https://tryhackme.com/module/web-hacking-1)
+
+### Practice
+
+**Browser Developer Tools**
+
+Use Firefox or Chrome DevTools to inspect:
+
+- HTTP requests and responses
+    
+- Headers
+    
+- Cookies and storage
+    
+- Network requests
+    
+- JavaScript behavior
+    
+
+Focus mainly on the **Network, Storage, and Console** tabs.
+
+**Burp Suite Community Edition**
+
+Install Burp Suite Community Edition and use it to **observe your own/local traffic**.
+
+Practice identifying:
+
+- HTTP requests
+    
+- HTTP responses
+    
+- Methods
+    
+- Headers
+    
+- Cookies
+    
+- Parameters
+    
+
+[Burp Suite Community Edition](https://portswigger.net/burp/communitydownload)
+
+**SQLBolt**
+
+Complete the interactive lessons covering:
+
+- `SELECT`
+    
+- `WHERE`
+    
+- `INSERT`
+    
+- `UPDATE`
+    
+- `DELETE`
+    
+- `JOIN`
+    
+
+[SQLBolt](https://sqlbolt.com/)
+
+**Small Local Web Application**
+
+Build a simple Flask or Node.js login application and use it to observe how:
+
+- Forms send data
+    
+- HTTP requests work
+    
+- Sessions are created
+    
+- Cookies store session information
+    
+- Authentication works
 
 ------------------------------------------------------------------------
+### Phase 8: Core Security Concepts
+
+**What it is:** These are the core ideas and vocabulary that all of cybersecurity is built on. They explain why systems get attacked, how attacks work at a high level, and how risk is managed.
+
+**What to learn:**
+
+1. **Security principles:** CIA triad (confidentiality, integrity, availability), least privilege, defense in depth, zero trust concept, separation of duties
+2. **Security terminology:** threat, vulnerability, exploit, risk, asset, attack surface, threat actor types
+3. **Cryptography basics:** symmetric vs asymmetric encryption, hashing, salting, digital signatures, certificates, PKI, encoding vs encryption vs hashing
+4. **Authentication and authorization:** authN vs authZ, passwords and password storage, MFA, access control models (DAC, MAC, RBAC)
+5. **Common attack types:** phishing and social engineering, malware types (virus, worm, trojan, ransomware), brute force, DoS/DDoS, man-in-the-middle, SQL injection, XSS, privilege escalation, lateral movement, supply chain attacks
+6. **Attack lifecycle frameworks:** Cyber Kill Chain, MITRE ATT&CK overview
+7. **Vulnerability management:** CVE, CVSS, patching, vulnerability scanning concept
+8. **Threat modeling:** what it is, basic approaches (STRIDE), identifying assets and trust boundaries
+9. **Risk management:** risk assessment, likelihood and impact, risk treatment
+10. **Security controls:** preventive, detective, corrective; technical, administrative, physical
+11. **Incident response overview:** preparation, detection, containment, eradication, recovery, lessons learned
+12. **Security frameworks and standards (overview only):** NIST CSF, ISO 27001, CIS Controls, OWASP
+13. **Ethics and legality:** authorization, scope, responsible disclosure, why unauthorized testing is illegal
+----
 
   
 
