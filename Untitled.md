@@ -170,7 +170,28 @@ TryHackMe networking rooms will be very helpful for turning the concepts you lea
 12. **Logs:** /var/log, syslog, auth.log, journalctl, reading and searching logs
 13. **Remote access:** SSH, key-based authentication, scp, rsync
 14. **Disk and system info:** df, du, mount, lsblk, uname, uptime, free
-  
+### Recommended Resources
+
+Use these resources to build a strong Linux foundation. You do not need to complete everything simultaneously — use **Linux Journey as your primary structured resource**, and use the other resources for deeper learning and hands-on practice.
+
+**Linux Journey**
+**Free:** Yes
+[Linux Journey](https://linuxjourney.com/) is beginner-friendly and structured, making it a good starting point for learning Linux from the fundamentals.
+
+Focus on understanding the concepts rather than simply completing the lessons.
+
+**The Linux Command Line — William Shotts
+**Free:** Yes
+[The Linux Command Line](https://linuxcommand.org/tlcl.php) by William Shotts is a free book focused on learning the Linux command line in depth.
+
+Use it as a reference alongside your practical learning, especially when you want a deeper understanding of commands, shell usage, filesystems, permissions, processes, and scripting.
+
+**TryHackMe — Linux Fundamentals
+**Free/Paid:** Some content may require a subscription
+Complete the **Linux Fundamentals Part 1, Part 2, and Part 3** rooms.
+
+These rooms provide hands-on practice with Linux commands and concepts in a cybersecurity-oriented environment.
+
 
 ------------------------------------------------------------------------
 
