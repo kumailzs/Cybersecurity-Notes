@@ -181,17 +181,39 @@ Use these resources to build a strong Linux foundation. You do not need to compl
 Focus on understanding the concepts rather than simply completing the lessons.
 
 **The Linux Command Line — William Shotts
-**Free:** Yes
+Free:** Yes
 [The Linux Command Line](https://linuxcommand.org/tlcl.php) by William Shotts is a free book focused on learning the Linux command line in depth.
 
 Use it as a reference alongside your practical learning, especially when you want a deeper understanding of commands, shell usage, filesystems, permissions, processes, and scripting.
 
 **TryHackMe — Linux Fundamentals
-**Free/Paid:** Some content may require a subscription
+Free/Paid:** Some content may require a subscription
 Complete the **Linux Fundamentals Part 1, Part 2, and Part 3** rooms.
 
 These rooms provide hands-on practice with Linux commands and concepts in a cybersecurity-oriented environment.
+### Practice
 
+Hands-on practice is essential for building Linux skills. Use these platforms alongside the Linux learning roadmap to reinforce what you learn through real command-line exercises and practical labs.
+
+**OverTheWire — Bandit
+Free:** Yes
+[OverTheWire Bandit](https://overthewire.org/wargames/bandit/) is designed for beginners and teaches Linux command-line skills through a series of progressively challenging levels.
+
+Complete the levels in order and try to solve each challenge yourself before looking for hints or solutions.
+
+Focus on understanding the commands and techniques you use rather than simply getting the password for the next level.
+
+### 2. BreachLabs
+
+Use **BreachLabs** for additional hands-on Linux and cybersecurity practice after building the basic command-line foundation.
+
+Work through the labs gradually and apply the Linux concepts you have already learned.
+
+### Recommended Practice Flow
+
+**Learn Linux concept → Practice the commands locally → OverTheWire Bandit → BreachLabs → Review and take notes**
+
+The goal is to become comfortable working in a Linux terminal, not just to complete labs as quickly as possible.
 
 ------------------------------------------------------------------------
 
