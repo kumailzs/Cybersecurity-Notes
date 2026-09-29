@@ -700,63 +700,112 @@ Create small scenarios and identify the relevant concept:
 This is enough practice for this phase. You don't need advanced exploitation labs yet.
 
 ----
+### Phase 9: Basic Cloud Concepts
 
-  
+**What it is:**  
+Cloud computing means using computing resources such as servers, storage, and networking over the internet. Cybersecurity mein basic cloud concepts samajhna important hai because modern organizations commonly use cloud environments.
 
-# 🚀 What Comes After This?
+### What to learn
 
-  
+1. **Cloud Basics**
+    
+    - What cloud computing is
+        
+    - Why organizations use it
+        
+    - Virtual machines and containers — basic idea
+        
+2. **Service Models**
+    
+    - IaaS
+        
+    - PaaS
+        
+    - SaaS
+        
+3. **Deployment Models**
+    
+    - Public
+        
+    - Private
+        
+    - Hybrid
+        
+4. **Cloud Providers**
+    
+    - AWS
+        
+    - Azure
+        
+    - Google Cloud
+        
+    - Basic awareness only
+        
+5. **Shared Responsibility**
+    
+    - What the cloud provider secures
+        
+    - What the customer is responsible for
+        
+6. **Basic Cloud Security**
+    
+    - IAM and permissions
+        
+    - MFA
+        
+    - Least privilege
+        
+    - Security groups/firewalls
+        
+    - Basic cloud logging
+        
+7. **Common Misconfigurations**
+    
+    - Public storage
+        
+    - Excessive permissions
+        
+    - Exposed credentials
+        
+    - Unnecessary open ports
+        
 
-This document intentionally stops at the **foundation boundary**.
+### Recommended Resources
 
-  
+**AWS Skill Builder — Cloud Practitioner Essentials**
 
-The next roadmap should be a separate track covering topics such as:
+**Free:** Yes
 
-  
+Focus only on the basic cloud, service models, core services, IAM, security, and shared-responsibility sections.
 
-- Pentesting methodology
+[AWS Skill Builder](https://skillbuilder.aws/)
 
-- Enumeration
+**Microsoft Learn — Azure Fundamentals**
 
-- Vulnerability discovery
+**Free:** Yes
 
-- Web security
+Use the introductory cloud concepts sections to understand cloud models, services, architecture, and basic security.
 
-- Internal network security
+[Microsoft Learn — Azure Fundamentals](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals/)
 
-- Active Directory security
+### Practice
 
-- Privilege escalation
+**TryHackMe — Cloud Computing Fundamentals**
 
-- Exploitation
+Use the beginner material to reinforce the basic concepts.
 
-- Post-exploitation
+[TryHackMe — Cloud Computing Fundamentals](https://tryhackme.com/room/cloudcomputingfundamentals)
 
-- Red-team methodology
+**Simple Practice**
 
-- Specialized areas such as LLM/AI security
+Take a basic cloud scenario and identify:
 
-  
+- What is the cloud service?
+    
+- Who is responsible for securing it?
+    
+- Who has access?
+    
+- Is anything unnecessarily exposed?
 
-Those topics should **not be mixed into this foundation roadmap**.
-
-  
-
-------------------------------------------------------------------------
-
-  
-
-## Final Principle
-
-  
-
-> **Learn the system before learning how to break the system.**
-
-  
-
-A strong foundation means you understand the underlying technology well
-
-enough that security concepts make sense instead of becoming a
-
-collection of tools and commands.
+---
