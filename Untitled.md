@@ -51,21 +51,14 @@ Skipping the foundation usually leads to one of two outcomes: getting stuck as s
 - Interviewers in this field tend to test fundamentals (networking, OS behavior, how authentication works) more than tool knowledge.
 #### Timeline
 The timeline depends on the individual: prior experience, hours per day, consistency, and how much is practiced hands-on rather than only watched or read. For someone starting from scratch and studying regularly, completing the foundation properly often takes several months to a year or more. Anyone promising a much shorter path is likely leaving gaps.
+#### Honest expectations
+- Finishing the foundation does not guarantee a job. It makes you ready to specialize and to be a credible candidate.
+- Certificates can help with screening, but they do not replace hands-on skill.
+- Practice matters more than passive learning: build a home lab, do labs, and write down what you learn.
+- Progress is uneven. Some topics (like Active Directory or networking) will feel slow at first, and that is normal.
+### Roadmap Overview
 
-  
-
-Honest expectations
-
-Finishing the foundation does not guarantee a job. It makes you ready to specialize and to be a credible candidate.
-
-Certificates can help with screening, but they do not replace hands-on skill.
-
-Practice matters more than passive learning: build a home lab, do labs, and write down what you learn.
-
-Progress is uneven. Some topics (like Active Directory or networking) will feel slow at first, and that is normal.
-
-  
-
+> This roadmap has 9 foundation phases. Each phase builds on the previous one, and all of them are common for both offensive and defensive paths. After completing the foundation, you can choose a specialization.
 # Phase 0 --- Lab Setup
 
   
