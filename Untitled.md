@@ -537,25 +537,168 @@ Build a simple Flask or Node.js login application and use it to observe how:
 - Authentication works
 
 ------------------------------------------------------------------------
-### Phase 8: Core Security Concepts
+### Phase 7: Core Security Concepts
 
-**What it is:** These are the core ideas and vocabulary that all of cybersecurity is built on. They explain why systems get attacked, how attacks work at a high level, and how risk is managed.
+**What it is:**  
+The basic security concepts and terminology you need before moving into practical cybersecurity. The goal is understanding, not memorization or certification preparation.
 
-**What to learn:**
+### What to learn
 
-1. **Security principles:** CIA triad (confidentiality, integrity, availability), least privilege, defense in depth, zero trust concept, separation of duties
-2. **Security terminology:** threat, vulnerability, exploit, risk, asset, attack surface, threat actor types
-3. **Cryptography basics:** symmetric vs asymmetric encryption, hashing, salting, digital signatures, certificates, PKI, encoding vs encryption vs hashing
-4. **Authentication and authorization:** authN vs authZ, passwords and password storage, MFA, access control models (DAC, MAC, RBAC)
-5. **Common attack types:** phishing and social engineering, malware types (virus, worm, trojan, ransomware), brute force, DoS/DDoS, man-in-the-middle, SQL injection, XSS, privilege escalation, lateral movement, supply chain attacks
-6. **Attack lifecycle frameworks:** Cyber Kill Chain, MITRE ATT&CK overview
-7. **Vulnerability management:** CVE, CVSS, patching, vulnerability scanning concept
-8. **Threat modeling:** what it is, basic approaches (STRIDE), identifying assets and trust boundaries
-9. **Risk management:** risk assessment, likelihood and impact, risk treatment
-10. **Security controls:** preventive, detective, corrective; technical, administrative, physical
-11. **Incident response overview:** preparation, detection, containment, eradication, recovery, lessons learned
-12. **Security frameworks and standards (overview only):** NIST CSF, ISO 27001, CIS Controls, OWASP
-13. **Ethics and legality:** authorization, scope, responsible disclosure, why unauthorized testing is illegal
+1. **Security Principles**
+    - CIA Triad
+    - Least privilege
+    - Defense in depth
+    - Zero Trust concept
+2. **Basic Security Terminology**
+    - Asset
+    - Threat
+    - Vulnerability
+    - Exploit
+    - Risk
+    - Attack surface
+    - Threat actor
+3. **Cryptography Basics**
+    - Encryption vs hashing vs encoding
+    - Symmetric vs asymmetric encryption
+    - Hashing and salting
+    - Digital signatures
+    - Certificates — basic idea
+4. **Authentication & Authorization**
+    - Authentication vs authorization
+    - Passwords and secure password storage
+    - MFA
+    - Basic access control concepts
+5. **Common Attack Types — High Level**  
+    Understand what these attacks are and their basic purpose:
+    - Phishing / social engineering
+    - Malware
+    - Brute force
+    - DoS/DDoS
+    - Man-in-the-middle
+    - SQL injection
+    - XSS
+    - Privilege escalation
+    - Lateral movement
+6. **Basic Security Operations**
+    - Vulnerability vs patch
+    - CVE — basic concept
+    - Security controls
+    - Incident response — basic lifecycle
+    - Preventive, detective, and corrective controls
+7. **Ethics & Legal Basics**
+    - Authorization
+    - Scope
+    - Responsible disclosure
+    - Why unauthorized testing is illegal
+### Recommended Resources
+
+**Professor Messer — Security+**
+
+**Free:** Yes
+
+Use the relevant Security+ lessons to cover:
+
+- CIA Triad, least privilege, defense in depth
+    
+- Threats, vulnerabilities, exploits, risk, and attack surface
+    
+- Authentication and authorization
+    
+- Common attacks and malware
+    
+- Security controls
+    
+- Vulnerability and patching concepts
+    
+- Incident response
+    
+- Basic security terminology and ethics
+    
+
+**Do not complete the entire Security+ course.** Only study the topics listed in this phase.
+
+[Professor Messer — Security+](https://www.professormesser.com/)
+
+**TryHackMe — Cyber Security 101**
+
+Use the relevant beginner rooms to reinforce:
+
+- Security principles
+    
+- Common attacks
+    
+- Authentication
+    
+- Cryptography
+    
+- Basic security concepts
+    
+
+Only complete the sections related to the topics listed in this phase. You do not need to finish the entire path.
+
+[TryHackMe — Cyber Security 101](https://tryhackme.com/path/outline/cybersecurity101)
+
+**Khan Academy — Cryptography**
+
+**Free:** Yes
+
+Use the introductory cryptography material to understand:
+
+- Encryption
+    
+- Symmetric encryption
+    
+- Asymmetric/public-key encryption
+    
+- Hashing
+    
+- Basic cryptographic concepts
+    
+
+You do not need to study advanced cryptographic mathematics.
+
+[Khan Academy — Cryptography](https://www.khanacademy.org/cryptography)
+
+### Practice
+
+**CyberChef**
+
+Use your own sample text/files to understand the difference between:
+
+- Encoding
+    
+- Encryption
+    
+- Hashing
+    
+
+Also experiment with hashing and observe how changing the input changes the hash.
+
+[CyberChef](https://gchq.github.io/CyberChef/)
+
+**File Hashing**
+
+Take a file you own, calculate its hash, change the file, and calculate the hash again.
+
+**Goal:** Understand why hashes can be used to verify data integrity.
+
+**Basic Security Scenarios**
+
+Create small scenarios and identify the relevant concept:
+
+- Someone gets a password through phishing → **social engineering**
+    
+- A user accesses something they should not → **authorization/access control**
+    
+- A system has an unpatched vulnerability → **vulnerability management**
+    
+- An attacker moves from one compromised system to another → **lateral movement**
+    
+- A service is overwhelmed with traffic → **DoS/DDoS**
+    
+
+This is enough practice for this phase. You don't need advanced exploitation labs yet.
+
 ----
 
   
