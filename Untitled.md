@@ -261,7 +261,76 @@ Use the Bash track for dedicated programming exercises. It gives you small probl
 
 
 ------------------------------------------------------------------------
+### Phase 4: Windows
 
+**What it is:** Windows is the most common operating system in corporate environments. Understanding how it works internally is necessary to secure it or test it.
+
+**What to learn:**
+
+1. **Basics:** Windows editions (Home, Pro, Server), installing Windows in a VM, GUI vs command line
+2. **File system:** NTFS, drive structure, important folders (System32, Program Files, Users, ProgramData), file permissions and ACLs
+3. **Users and groups:** local users, administrators, built-in accounts, SIDs, UAC
+4. **Command prompt:** cmd basics, navigation, file operations, network commands (ipconfig, netstat, nslookup, tasklist, net user)
+5. **PowerShell basics:** cmdlets, verb-noun structure, pipeline, Get-Help, Get-Process, Get-Service, Get-ChildItem, variables, simple scripts, execution policy
+6. **Processes and services:** Task Manager, services.msc, service accounts, startup items, scheduled tasks
+7. **Registry:** structure (HKLM, HKCU, etc.), common persistence and configuration locations, regedit
+8. **Event logs:** Event Viewer, Security/System/Application logs, important Event IDs (for example 4624, 4625, 4688, 4720), Sysmon overview
+9. **Windows security features:** Windows Defender, Windows Firewall, BitLocker, patching and Windows Update
+10. **Windows networking:** shares, SMB, RDP, WinRM basics
+11. **Administrative tools:** Computer Management, Local Security Policy, Task Scheduler, Sysinternals tools (Process Explorer, Autoruns)
+### Recommended Resources
+
+**Microsoft Learn — Windows Fundamentals
+
+**Free:** Yes
+
+Use Microsoft Learn to understand Windows fundamentals, including the filesystem, users and groups, permissions, processes, services, networking, security features, and administrative tools.
+
+[Microsoft Learn — Windows](https://learn.microsoft.com/en-us/windows/)
+
+**Microsoft Learn — PowerShell
+
+**Free:** Yes
+
+Use this for the basics of PowerShell: cmdlets, pipeline, variables, `Get-Help`, common commands, and simple scripts.
+
+[Microsoft Learn — PowerShell](https://learn.microsoft.com/en-us/powershell/)
+
+**Hack The Box Academy — Windows Fundamentals
+
+Use HTB Academy's **Windows Fundamentals** material for additional hands-on learning and exercises covering Windows administration and security concepts.
+## Practice
+
+### 1. TryHackMe — Windows Fundamentals
+
+Complete the **Windows Fundamentals** rooms to practice Windows filesystem, users, permissions, processes, networking, and security concepts in a hands-on environment.
+
+### 2. Your Own Windows VM
+
+Install Windows in a VM and practice the basics yourself:
+
+- CMD and PowerShell commands
+    
+- Users and groups
+    
+- NTFS permissions
+    
+- Processes and services
+    
+- Event Viewer
+    
+- Registry basics
+    
+- Windows networking
+    
+- Firewall and security settings
+    
+
+**Practice flow:**
+
+**Learn → Practice in your VM → Complete the relevant TryHackMe room → Take notes → Move on**
+
+---
 
 ------------------------------------------------------------------------
 
