@@ -1,5 +1,3 @@
-**IP Addressing – Complete Notes**
-
 ### 1. Basic Terms
 
 - **IP (Internet Protocol)**  
@@ -15,11 +13,11 @@
 
 ### 2. IPv4 vs IPv6
 
-| Feature   | IPv4                  | IPv6                      |
-|-----------|-----------------------|---------------------------|
-| Bits      | 32 bits               | 128 bits                  |
-| Format    | 192.168.1.2           | 2001:db8::1               |
-| Structure | 4 octets              | 8 groups                  |
+| Feature   | IPv4        | IPv6        |
+| --------- | ----------- | ----------- |
+| Bits      | 32 bits     | 128 bits    |
+| Format    | 192.168.1.2 | 2001:db8::1 |
+| Structure | 4 octets    | 8 groups    |
 
 **Why do we say “bits”?**  
 Computers only understand 0 and 1 (binary). An IPv4 address is made of 32 zeros and ones, so we call it a 32-bit address.
