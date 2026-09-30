@@ -144,11 +144,11 @@ It also decides the **size of the network** using the Subnet Mask.
 
 ---
 
-# CLASSICAL ADDRESSING
+# Classical Addressing
 
-- **IPv4 Address Size:** An IPv4 address consists of **32 bits** divided into **4 octets** (8 bits each), represented in dotted-decimal format (e.g., `W.X.Y.Z`).
-    
 - **Classful Addressing:** To distribute IP addresses based on organizational needs, IPv4 was originally divided into 5 classes: **Class A, B, C, D, and E**.
+    
+- **IPv4 Address Size:** An IPv4 address consists of **32 bits** divided into **4 octets** (8 bits each), represented in dotted-decimal format (e.g., `W.X.Y.Z`).
 
 ---
 
