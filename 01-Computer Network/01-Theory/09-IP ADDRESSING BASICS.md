@@ -62,6 +62,8 @@ This division is decided by the **Subnet Mask**.
 - Network ID = 192.168.1.0
 - Host ID = 2
 
+![[Pasted image 20261001020709.png]]
+
 ---
 
 ### 6. How Network ID and Host ID are Assigned
