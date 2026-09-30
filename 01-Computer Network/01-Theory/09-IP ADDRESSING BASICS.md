@@ -18,7 +18,7 @@
 | Bits      | 32 bits     | 128 bits    |
 | Format    | 192.168.1.2 | 2001:db8::1 |
 | Structure | 4 octets    | 8 groups    |
-![[Pasted image 20261001015418.png]]
+
 
 **Why do we say “bits”?**  
 Computers only understand 0 and 1 (binary). An IPv4 address is made of 32 zeros and ones, so we call it a 32-bit address.
