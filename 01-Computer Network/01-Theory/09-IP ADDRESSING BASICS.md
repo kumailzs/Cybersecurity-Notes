@@ -254,13 +254,13 @@ Neither of these two addresses can be assigned to individual computer interfaces
 
 # Classless Addressing (CIDR)
 
+![[Pasted image 20261001231637.png]]
 ## Overview & Why CIDR?
 
 - **Problem with Classful Addressing:** Fixed IP classes (A, B, and C) caused massive IP address wastage. For example, an organization needing 1,000 IPs could not use Class C (254 IPs) and was forced to take Class B (65,536 IPs), wasting over 64,000 addresses.
 - **The Solution:** In 1993, **Classless Inter-Domain Routing (CIDR)** was introduced to replace rigid classes.
 - **Block Allocation:** Instead of fixed classes, IP addresses are allocated in customized **Blocks** based on exact user requirements (managed by IANA).
 ## CIDR Notation (Slash Notation)
-
 - **Format:** `x.y.z.w / n`
 - **Meaning of `/n`:** The `/n` prefix represents the number of **Network bits** (or continuous 1s in the subnet mask).
 - **Host Bits Formula:** $\text{Host Bits} = 32 - n$
@@ -268,9 +268,6 @@ Neither of these two addresses can be assigned to individual computer interfaces
 ## Step-by-Step Example: `200.10.20.40 / 28`
 
 - **Network Bits ($n$):** 28 bits
-    
-      
-    
 - **Host Bits:** $32 - 28 = 4$ bits
 - **Total IPs in Block:** $2^4 = 16$ addresses
 - **Subnet Mask:** 28 binary ones followed by 4 binary zeros:
