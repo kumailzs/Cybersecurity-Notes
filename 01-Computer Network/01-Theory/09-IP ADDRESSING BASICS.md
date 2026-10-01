@@ -39,7 +39,7 @@ Computers only understand 0 and 1 (binary). An IPv4 address is made of 32 zeros 
 
 ---
 
-## 4. Public vs Private IP
+## Public vs Private IP
 
 **Private IP Ranges:**
 
@@ -248,8 +248,46 @@ It also decides the **size of the network** using the Subnet Mask.
 When calculating usable host addresses in any network, **2** addresses are subtracted from the total because they serve dedicated operational functions:
 
 1. **Network Address (All host bits set to** `**0**`**):** Identifies the network itself (e.g., `192.168.1.0`).
-    
 2. **Direct Broadcast Address (All host bits set to** `**1**`**):** Used to send packets to all host devices on that specific network simultaneously (e.g., `192.168.1.255`).
-    
 
 Neither of these two addresses can be assigned to individual computer interfaces.
+
+# Classless Addressing (CIDR)
+
+## Overview & Why CIDR?
+
+- **Problem with Classful Addressing:** Fixed IP classes (A, B, and C) caused massive IP address wastage. For example, an organization needing 1,000 IPs could not use Class C (254 IPs) and was forced to take Class B (65,536 IPs), wasting over 64,000 addresses.
+- **The Solution:** In 1993, **Classless Inter-Domain Routing (CIDR)** was introduced to replace rigid classes.
+- **Block Allocation:** Instead of fixed classes, IP addresses are allocated in customized **Blocks** based on exact user requirements (managed by IANA).
+## CIDR Notation (Slash Notation)
+
+- **Format:** `x.y.z.w / n`
+- **Meaning of `/n`:** The `/n` prefix represents the number of **Network bits** (or continuous 1s in the subnet mask).
+- **Host Bits Formula:** $\text{Host Bits} = 32 - n$
+- **Total Addresses Formula:** $\text{Total IPs in Block} = 2^{(32 - n)}$
+## Step-by-Step Example: `200.10.20.40 / 28`
+
+- **Network Bits ($n$):** 28 bits
+    
+      
+    
+- **Host Bits:** $32 - 28 = 4$ bits
+- **Total IPs in Block:** $2^4 = 16$ addresses
+- **Subnet Mask:** 28 binary ones followed by 4 binary zeros:
+`11111111 . 11111111 . 11111111 . 11110000` = `255.255.255.240`
+
+### Finding the Network ID (Block ID):
+
+1. The first 3 octets (24 bits) remain unchanged: `200.10.20`.
+2. Convert the 4th octet (`40`) into 8-bit binary: `00101000`.
+3. Since $n = 28$, the first 4 bits belong to the Network (`0010`) and the last 4 bits belong to the Host (`1000`).
+4. Set all Host bits to `0`: `00100000` = `32` in decimal.
+5. **Network ID:** **`200.10.20.32 / 28`**
+## Three Golden Rules of CIDR Blocks
+
+A CIDR block is valid only if it satisfies all three rules:
+
+1. **Contiguous IPs:** All IP addresses in a block must be in continuous sequential order without any gaps.
+2. **Power of 2:** The total number of IP addresses in a block must be a power of 2 (e.g., $2^1=2$, $2^2=4$, $2^3=8$, $2^4=16$). Block sizes cannot be odd or non-power numbers like 17 or 50.
+3. **Divisibility Rule:** The first address of the block (Network ID) must be evenly divisible by the total size of the block. 
+- **Shortcut:** If the block size is $2^k$, the last $k$ bits in the binary representation of the Network ID must all be `0`.
