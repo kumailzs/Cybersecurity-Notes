@@ -250,7 +250,7 @@ When calculating usable host addresses in any network, **2** addresses are subtr
 
 Neither of these two addresses can be assigned to individual computer interfaces.
 
-# Classless Addressing (CIDR): Simple Notes
+# Classless Addressing (CIDR):
 
 ## 1. What is an IP address?
 
@@ -353,13 +353,3 @@ Why? Because the first address of a block always has all host bits set to 0:
 
 - `200.10.20.32` is valid (32 ÷ 16 = 2, binary `0010 0000`, last 4 bits are 0)
 - A 16-address block cannot start at `200.10.20.40` (40 ÷ 16 = 2.5, binary `0010 1000`, last 4 bits are not 0)
-
-## Quick revision
-
-1. IP = 32 bits = network part + host part
-2. `/n` = n network bits, host bits = 32 − n
-3. Block = IP range of one network, size = 2^(host bits)
-4. Network ID = host bits all 0, Broadcast = host bits all 1
-5. Valid block = contiguous + power of 2 + first address divisible by size
-
-Practice question: for `/26`, how many host bits, total addresses, and usable host IPs? Give your answer and I'll check it.
