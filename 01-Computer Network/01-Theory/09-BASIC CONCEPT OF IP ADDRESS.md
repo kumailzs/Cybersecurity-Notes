@@ -13,3 +13,8 @@ Two purpose of IP Address
 
 ### Components Of An IP Address
 
+**Network Portion (Network ID) :** Identifies the network to which the device belongs.
+**Host Portion (Host ID) :** Identifies the particular device on the network.
+**Subnet Mask :** Defines which part of the IP is network and which part is host.
+
+FO
