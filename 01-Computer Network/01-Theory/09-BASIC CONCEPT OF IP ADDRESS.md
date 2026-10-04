@@ -17,4 +17,7 @@ Two purpose of IP Address
 **Host Portion (Host ID) :** Identifies the particular device on the network.
 **Subnet Mask :** Defines which part of the IP is network and which part is host.
 
-FO
+**For Example**
+192.168.1.1, 255.255.255.0
+Network Portion : 192.168.1.0
+Host portion: 1
