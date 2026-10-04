@@ -4,7 +4,8 @@ IP is a set of rules that decides how data packets travel in a network.
 IP address is unique identifier of devices that help to identify device that connected in network.
 Two purpose of IP Address
 - To identify device on network
-- It can help communicate with other devices.
+- It can help devices to communicate with other devices.
+
 **For Example :**
 192.168.1.1, 3001:0da8:75a3:0000:0000:8a2e:0370:7334
 
