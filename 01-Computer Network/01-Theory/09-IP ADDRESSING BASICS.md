@@ -250,39 +250,116 @@ When calculating usable host addresses in any network, **2** addresses are subtr
 
 Neither of these two addresses can be assigned to individual computer interfaces.
 
-# Classless Addressing (CIDR)
+# Classless Addressing (CIDR): Simple Notes
 
-![[Pasted image 20261001231637.png]]
-## Overview & Why CIDR?
+## 1. What is an IP address?
 
-- **Problem with Classful Addressing:** Fixed IP classes (A, B, and C) caused massive IP address wastage. For example, an organization needing 1,000 IPs could not use Class C (254 IPs) and was forced to take Class B (65,536 IPs), wasting over 64,000 addresses.
-- **The Solution:** In 1993, **Classless Inter-Domain Routing (CIDR)** was introduced to replace rigid classes.
-- **Block Allocation:** Instead of fixed classes, IP addresses are allocated in customized **Blocks** based on exact user requirements (managed by IANA).
-## CIDR Notation (Slash Notation)
-- **Format:** `x.y.z.w / n`
-- **Meaning of `/n`:** The `/n` prefix represents the number of **Network bits** (or continuous 1s in the subnet mask).
-- **Host Bits Formula:** $\text{Host Bits} = 32 - n$
-- **Total Addresses Formula:** $\text{Total IPs in Block} = 2^{(32 - n)}$
-## Step-by-Step Example: `200.10.20.40 / 28`
+An IP address is a line of 32 bits (0s and 1s). We usually see it written with dots:
 
-- **Network Bits ($n$):** 28 bits
-- **Host Bits:** $32 - 28 = 4$ bits
-- **Total IPs in Block:** $2^4 = 16$ addresses
-- **Subnet Mask:** 28 binary ones followed by 4 binary zeros:
-`11111111 . 11111111 . 11111111 . 11110000` = `255.255.255.240`
+```
+200      .  10       .  20       .  32
+11001000 . 00001010 . 00010100 . 00100000
+```
 
-### Finding the Network ID (Block ID):
+This line has two parts:
 
-1. The first 3 octets (24 bits) remain unchanged: `200.10.20`.
-2. Convert the 4th octet (`40`) into 8-bit binary: `00101000`.
-3. Since $n = 28$, the first 4 bits belong to the Network (`0010`) and the last 4 bits belong to the Host (`1000`).
-4. Set all Host bits to `0`: `00100000` = `32` in decimal.
-5. **Network ID:** **`200.10.20.32 / 28`**
-## Three Golden Rules of CIDR Blocks
+- **Network part** (first bits): which network
+- **Host part** (remaining bits): which device inside that network
 
-A CIDR block is valid only if it satisfies all three rules:
+## 2. Problem with classful addressing
 
-1. **Contiguous IPs:** All IP addresses in a block must be in continuous sequential order without any gaps.
-2. **Power of 2:** The total number of IP addresses in a block must be a power of 2 (e.g., $2^1=2$, $2^2=4$, $2^3=8$, $2^4=16$). Block sizes cannot be odd or non-power numbers like 17 or 50.
-3. **Divisibility Rule:** The first address of the block (Network ID) must be evenly divisible by the total size of the block. 
-- **Shortcut:** If the block size is $2^k$, the last $k$ bits in the binary representation of the Network ID must all be `0`.
+The boundary between network and host was fixed (only 8, 16, or 24 bits). So there were only 3 block sizes:
+
+|Class|Addresses|
+|---|---|
+|A|about 16.7 million|
+|B|65,536|
+|C|256|
+
+If an organization needed 1,000 IPs, Class C was too small and Class B was too big. **Over 64,000 addresses were wasted.**
+
+## 3. What is CIDR?
+
+CIDR (Classless Inter-Domain Routing) was introduced in 1993. The boundary is no longer fixed. It can be anywhere, so the block size matches what the user needs. Blocks are managed by IANA.
+
+Example: for 1,000 IPs you get a `/22` (1,024 addresses), so very little is wasted.
+
+## 4. What is a block?
+
+**A block is the range of all IP addresses of one network.** All addresses in a block share the same network part.
+
+## 5. CIDR notation: `x.y.z.w/n`
+
+`/n` means: **the first n bits of the 32 are network bits.**
+
+```
+Host bits       = 32 − n
+Total addresses = 2^(host bits)
+Usable host IPs = total − 2
+```
+
+**Remember:** the bigger `n` is, the smaller the block.
+
+|Prefix|Host bits|Total addresses|Usable host IPs|
+|---|---|---|---|
+|/30|2|4|2|
+|/29|3|8|6|
+|/28|4|16|14|
+
+Why subtract 2?
+
+- **First address** = Network ID (the name of the network)
+- **Last address** = Broadcast (message to all devices)
+
+Neither can be given to a device.
+
+## 6. Example: `200.10.20.40/28`
+
+**Basic info**
+
+- Network bits = 28
+- Host bits = 32 − 28 = 4
+- Total addresses = 2⁴ = 16
+- Subnet mask = 28 ones followed by 4 zeros:  
+    `11111111.11111111.11111111.11110000` = **255.255.255.240**
+
+**Finding the Network ID**
+
+1. The first 3 octets stay the same: `200.10.20`
+2. Write the 4th octet `40` in binary: `0010 1000`
+3. First 4 bits are network (`0010`), last 4 bits are host (`1000`)
+4. Set the host bits to 0: `0010 0000` = 32
+5. **Network ID = 200.10.20.32/28**
+
+**Other values**
+
+- Broadcast: set all host bits to 1, `0010 1111` = 47
+- Block range: `.32` to `.47`
+- Usable host IPs: `.33` to `.46` (14 devices)
+
+Note: `.40` is just one address inside the block. It is not the start of the block.
+
+## 7. Three rules for a valid CIDR block
+
+**Rule 1: Contiguous.** Addresses must be in a continuous sequence with no gaps.
+
+**Rule 2: Power of 2.** Block size can only be 2, 4, 8, 16, 32... never 17 or 50, because host bit combinations are always a power of 2.
+
+**Rule 3: Divisibility.** The first address (Network ID) must be divisible by the block size.
+
+**Shortcut:** if the size is 2ᵏ, the last k bits of the Network ID must all be 0.
+
+Why? Because the first address of a block always has all host bits set to 0:
+
+- `200.10.20.32` is valid (32 ÷ 16 = 2, binary `0010 0000`, last 4 bits are 0)
+- A 16-address block cannot start at `200.10.20.40` (40 ÷ 16 = 2.5, binary `0010 1000`, last 4 bits are not 0)
+
+## Quick revision
+
+1. IP = 32 bits = network part + host part
+2. `/n` = n network bits, host bits = 32 − n
+3. Block = IP range of one network, size = 2^(host bits)
+4. Network ID = host bits all 0, Broadcast = host bits all 1
+5. Valid block = contiguous + power of 2 + first address divisible by size
+
+Practice question: for `/26`, how many host bits, total addresses, and usable host IPs? Give your answer and I'll check it.
