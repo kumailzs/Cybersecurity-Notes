@@ -1,10 +1,10 @@
-# Basic Terms
-
-- **IP (Internet Protocol)**  
-IP A set of rules that decides how data packets travel in a network.
-- **IP Address**  
+### IP (Internet Protocol)
+IP is a set of rules that decides how data packets travel in a network.
+### IP Address
 IP address is unique identifier of device that help to identify device in network.
-- **IP Addressing**  
+**For Example :**
+192.168.1.1, 3001:0da8:75a3:0000:0000:8a2e:0370:7334
+
 The system of assigning IP addresses to devices and also deciding the size of the network.
 
 
