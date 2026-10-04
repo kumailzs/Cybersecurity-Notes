@@ -1,9 +1,9 @@
 # Basic Terms
 
 - **IP (Internet Protocol)**  
-A set of rules that decides how data packets travel in a network.
+IP A set of rules that decides how data packets travel in a network.
 - **IP Address**  
-A unique number given to a device so it can be identified on the network.
+IP address is unique identifier of device that help to identify device in network.
 - **IP Addressing**  
 The system of assigning IP addresses to devices and also deciding the size of the network.
 
