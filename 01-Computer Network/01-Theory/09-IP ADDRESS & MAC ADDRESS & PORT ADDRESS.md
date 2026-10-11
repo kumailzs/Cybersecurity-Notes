@@ -18,5 +18,11 @@
 - **Network Device :** Switch/NIC use MAC Address to foward physical frame into network.
 ## Port Address
 - **Layer :** Transport Layer
-- **What's this :** Port Number is unique address that identify the specific process in a computer.
-- 
+- **What's this :** Port Number is unique address that identify the specific process of a services in a computer.
+- **Lenth / Format :** It's 16 bits and it's range is 0 to 65535.
+- **Famous Port Examples :**
+1. **Port 80:** HTTP (Normal web traffic)
+2. **Port 443:** HTTPS (Secure web traffic)
+3. **Port 21:** FTP (File Transfer)
+4. **Port 25:** SMTP (Email)
+- **What's Use :** In our computer mutliple processing like watching a video, download 
