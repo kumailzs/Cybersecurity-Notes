@@ -1,3 +1,4 @@
+# Types Of Computer Network
 We classify networks based on their geographical coverage.
 ## PAN (Personal Area Network
 A personal area network is a computer network for interconnecting electronic devices within an individual person's workspace.
