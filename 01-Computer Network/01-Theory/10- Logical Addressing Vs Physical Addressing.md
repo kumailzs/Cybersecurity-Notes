@@ -11,3 +11,12 @@ These are three reasons :
 ### Heterogeneous Networks (Technology Independence):
 - Every physical technology (Wi-Fi, Ethernet Cable, Fiber, Cellular 4G/5G) Layer 2 frames work on different method.
 - IP Address Layer 3 is the universal standard so, it's joint different hardware technologies.
+## 🔄 End-to-End Packet Flow (Summary)
+
+When we send/receive on internet :
+
+$$\text{Internet (Global Routing via IP)} \longrightarrow \text{Local Network (Device Identity via MAC)} \longrightarrow \text{Software Application (Process Identity via Port)}$$
+
+1. **IP Address:** Packet ko Internet ke raste se aapke **Local Network (Router)** tak pahunchata hai.
+2. **MAC Address:** Local Network ke andar aapke **Exact Device (Laptop/Phone)** ko dhundta hai.
+3. **Port Address:** Laptop ke andar sahi **App/Tab (Chrome/WhatsApp)** tak data hand-over karta hai.
