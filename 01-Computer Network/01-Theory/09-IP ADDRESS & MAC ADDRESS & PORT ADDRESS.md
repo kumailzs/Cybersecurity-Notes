@@ -9,6 +9,8 @@
 - **Property :** When data packet travel from source to destination in internet so, ip address is always same (unchanged).
 - **Network Device :** Router use IP Address to foward data packet into internet.
 ## MAC Address ( Media Access Control Address)
+
+![[Pasted image 20261012020341.png]]
 - **Layer :** Data-Link Layer
 - **What's this :** MAC Address is the unique identifier assigned to NIC (Network Interface Card).
 - **Who's Assign :** It's assign by manufacture company (like intel, reltek, and etc).
@@ -16,7 +18,6 @@
 - **What's Use :** It's only use for communication between nodes in a LAN.
 - **Property :** When physical frame hop (travel one router to another router) so, MAC Address is change in every hop.
 - **Network Device :** Switch/NIC use MAC Address to foward physical frame into network.
-![[Pasted image 20261012020235.png]]
 ## Port Address ( Port Number )
 - **Layer :** Transport Layer
 - **What's this :** Port Number is unique address of a process of a services in a computer.
