@@ -17,6 +17,13 @@ When we send/receive on internet :
 ![Computer Network](../../attachments/Pasted%20image%2020261012015759.png)
 
 Routing flow:
+$$
+\begin{aligned}
+&\text{Internet (Global Routing via IP)}\
+&\longrightarrow \text{Local Network (Device Identity via MAC)}\
+&\longrightarrow \text{Software Application (Process Identity via Port)}
+\end{aligned}
+$$
 
 $$
 A \rightarrow B \rightarrow C
