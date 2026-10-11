@@ -9,12 +9,11 @@ These are three reasons :
 - MAC Address is fixed when we relocate another place. if internet works on MAC address so, when device relocated so, router should to update MAC Address
 - IP Address is dynamic when we connect another network so, a new ip address assign yo  a device.
 ### Heterogeneous Networks (Technology Independence):
-- Every physical technology (Wi-Fi, Ethernet Cable, Fiber, Cellular 4G/5G) Layer 2 frames work on different method.
-- IP Address Layer 3 is the universal standard so, it's joint different hardware technologies.
+- The Layer 2 frames of different physical technologies (such as Wi-Fi, Ethernet Cable, Fiber, and Cellular 4G/5G) operate differently.
+- The IP Address acts as a universal standard at Layer 3 that connects all these different hardware technologies together..
 ## 🔄 End-to-End Packet Flow (Summary)
 
 When we send/receive on internet :
-
 $$\text{Internet (Global Routing via IP)} \longrightarrow \text{Local Network (Device Identity via MAC)} \longrightarrow \text{Software Application (Process Identity via Port)}$$
 
 1. **IP Address:** Packet ko Internet ke raste se aapke **Local Network (Router)** tak pahunchata hai.
