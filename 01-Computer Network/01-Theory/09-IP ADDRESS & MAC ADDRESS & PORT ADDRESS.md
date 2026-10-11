@@ -25,4 +25,4 @@
 2. **Port 443:** HTTPS (Secure web traffic)
 3. **Port 21:** FTP (File Transfer)
 4. **Port 25:** SMTP (Email)
-- **What's Use :** In our computer mutliple process performs like watching a video, download something, Whatsapp, etc. so, how identify which segment is for whic
+- **What's Use :** In our computer multiple services running like Watching a video, Download something, Whatsapp, etc. so, how identify which segment is for which application or service so, port address identify which segment is for which service
