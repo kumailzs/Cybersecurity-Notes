@@ -1,3 +1,4 @@
+# OSI MODEL (Open System Interconnect Model)
 OSI Model (Open System Interconnected Model) is the references model that is used to understand how data travels from one device to another. It divide networking process into 7 different layers and each layer have different function, protocols.
 
 ![Computer Network](../../attachments/Pasted%20image%2020260919145554.png)
