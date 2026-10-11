@@ -16,11 +16,11 @@ When we send/receive on internet :
 
 ![Computer Network](../../attachments/Pasted%20image%2020261012015759.png)
 
-\text{Internet (Global Routing via IP)}
-\rightarrow
-\text{Local Network (Device Identity via MAC)}
-\rightarrow
-\text{Software Application (Process Identity via Port)}
+Routing flow:
+
+$$
+A \rightarrow B \rightarrow C
+$$
 
 1. **IP Address:** To travel data packet in internet and reached to its destination.
 2. **MAC Address:** To identify a specific device in a LAN.
