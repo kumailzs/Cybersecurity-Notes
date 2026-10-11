@@ -16,6 +16,6 @@ These are three reasons :
 When we send/receive on internet :
 $$\text{Internet (Global Routing via IP)} \longrightarrow \text{Local Network (Device Identity via MAC)} \longrightarrow \text{Software Application (Process Identity via Port)}$$
 
-1. **IP Address:** Packet ko Internet ke raste se aapke **Local Network (Router)** tak pahunchata hai.
-2. **MAC Address:** Local Network ke andar aapke **Exact Device (Laptop/Phone)** ko dhundta hai.
+1. **IP Address:** To travel data packet in internet and reached to its destination.
+2. **MAC Address:** To find a specific device in a LAN.
 3. **Port Address:** Laptop ke andar sahi **App/Tab (Chrome/WhatsApp)** tak data hand-over karta hai.
