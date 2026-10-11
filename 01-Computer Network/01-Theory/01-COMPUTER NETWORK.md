@@ -10,5 +10,4 @@ Laptop ---> Printer
 Phone ---> Signal Tower ---> Phone
 ### Diagram :
 
-![[Pasted image 20260915112300.png]]
 ![Computer Network](../../attachments/Pasted%20image%2020260915112300.png)
