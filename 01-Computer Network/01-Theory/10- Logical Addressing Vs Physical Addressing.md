@@ -16,11 +16,11 @@ When we send/receive on internet :
 
 ![Computer Network](../../attachments/Pasted%20image%2020261012015759.png)
 $$
-\text{Internet (Global Routing via IP)}
-\longrightarrow
-\text{Local Network (Device Identity via MAC)}
-\longrightarrow
-\text{Software Application (Process Identity via Port)}
+\begin{aligned}
+&\text{Internet (Global Routing via IP)}\
+&\longrightarrow \text{Local Network (Device Identity via MAC)}\
+&\longrightarrow \text{Software Application (Process Identity via Port)}
+\end{aligned}
 $$
 
 1. **IP Address:** To travel data packet in internet and reached to its destination.
