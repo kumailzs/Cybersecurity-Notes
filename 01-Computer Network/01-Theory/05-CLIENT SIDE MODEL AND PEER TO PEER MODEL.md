@@ -26,7 +26,5 @@ Here is the actual difference:
 #### 2. Peer-to-Peer (P2P) Model
 
 - **Bidirectional?** Yes, but with no central server or authority in the middle.
-    
 - **Flow:** `Your Device ⇄ Another Device (Direct IP connection)`.
-    
 - **Example:** BitTorrent (torrenting) or local LAN file transfer. No corporate server handles master control or storage; peers share chunks of the file directly with each other.
