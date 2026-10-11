@@ -1,6 +1,7 @@
 ## IP Address ( Internet Protocol Address )
 
-![[Pasted image 20261012020640.png]]
+![Computer Network](../../attachments/Pasted%20image%2020261012020640.png)
+
 - **Layer :** Network Layer
 - **What's this :** Every nodes (device like mobile phones, routers, laptops, server etc) connected in a network that has its unique identifier number that's called IP Address.
 - **Who's Assign :** It's assign by our adminstator, router and ISP.
@@ -12,7 +13,7 @@
 - **Network Device :** Router use IP Address to foward data packet into internet.
 ## MAC Address ( Media Access Control Address)
 
-![[Pasted image 20261012020341.png]]
+![Computer Network](../../attachments/Pasted%20image%2020261012020341.png)
 - **Layer :** Data-Link Layer
 - **What's this :** MAC Address is the unique identifier assigned to NIC (Network Interface Card).
 - **Who's Assign :** It's assign by manufacture company (like intel, reltek, and etc).
@@ -22,7 +23,7 @@
 - **Network Device :** Switch/NIC use MAC Address to foward physical frame into network.
 ## Port Address ( Port Number )
 
-![[Pasted image 20261012021100.png]]
+![Computer Network](../../attachments/Pasted%20image%2020261012021100.png)
 - **Layer :** Transport Layer
 - **What's this :** Port Number is unique address of a process of a services in a computer.
 - **Lenth / Format :** It's 16 bits and it's range is 0 to 65535.
