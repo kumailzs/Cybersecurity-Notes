@@ -2,14 +2,13 @@
 It's centralized architecture (authority, control, storage have one device (server)). A powerful computer (server) store data and processing. Devices send request to the server.
 ### For Example :
 When you search on browser(client) so the request send to the google server and they respond browser then you see result.
-
-![[Pasted image 20260917120058.png]]
+![Computer Network](../../attachments/Pasted%20image%2020260917120058.png)
 
 ## Peer to Peer Model (P2P)
 It's decentralized architecture (control, authority, storage doesn't has any single device). Devices are peer (equal) that send and receive data simultaneously each other.
 ### For Example : 
 When you send data through Bluetooth /LAN Cable device directly sharing resources without any centralized device.
-![[Pasted image 20260917120532.png]]
+![Computer Network](../../attachments/Pasted%20image%2020260917120532.png)
 
 ## Confusion 
 
