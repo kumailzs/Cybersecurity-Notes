@@ -16,6 +16,7 @@
 - **What's Use :** It's only use for communication between nodes in a LAN.
 - **Property :** When physical frame hop (travel one router to another router) so, MAC Address is change in every hop.
 - **Network Device :** Switch/NIC use MAC Address to foward physical frame into network.
+![[Pasted image 20261012020235.png]]
 ## Port Address ( Port Number )
 - **Layer :** Transport Layer
 - **What's this :** Port Number is unique address of a process of a services in a computer.
