@@ -26,7 +26,8 @@
 2. **Port 443:** HTTPS (Secure web traffic)
 3. **Port 21:** FTP (File Transfer)
 4. **Port 25:** SMTP (Email)
-### 📊 Quick Comparison Table
+
+## 📊 Quick Comparison Table
 
 | **Feature**                 | **MAC Address**                | **IP Address**                             | **Port Address**                 |
 | --------------------------- | ------------------------------ | ------------------------------------------ | -------------------------------- |
