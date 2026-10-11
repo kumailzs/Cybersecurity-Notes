@@ -1,6 +1,7 @@
 ## IP Address(Internet Protocol Address)
-- **What's this :** It's logical address that assign by our adminstator, router and ISP.
+- **What's this :** Every nodes connected in a network that has its unique identifier tthat's called IP Address.
+- **Who's Assign :** It's assign by our adminstator, router and ISP.
 - **Length / Format :**
   1. **IPV4 :** It's 32 bits IP Address represented by dotted decimal e.g 192.168.1.1.
   2. **IPV6 :** It's 128 bits IP Address represented by hexadecimal e.g 2345:0425:2CA1:0000:0000:0567:5673:23b5
-- 
+- **What's Use :** It's use for Gobal internet routing (to deciide path to travel data packet from source to destination). It's also use to travel data from source to destinatio
