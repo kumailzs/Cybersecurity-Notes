@@ -1,4 +1,6 @@
 ## IP Address ( Internet Protocol Address )
+
+![[Pasted image 20261012020640.png]]
 - **Layer :** Network Layer
 - **What's this :** Every nodes (device like mobile phones, routers, laptops, server etc) connected in a network that has its unique identifier number that's called IP Address.
 - **Who's Assign :** It's assign by our adminstator, router and ISP.
