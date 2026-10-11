@@ -11,7 +11,6 @@ it's software based layer and it works on application. It handle the interaction
 - **Telnet / RDP** (Remote Desktop)
 **For Example**
 When you search something on google so application layers work on there.
-
 ## Layer 6 (Presentation Layer)
 it prepares data in proper form.
 - Convert ASCII/Unicode into binary.
@@ -41,7 +40,7 @@ It convert bits into actual physical signals.
 - **Copper wire (Ethernet):** Electrical square wave signals (0s aur 1s).
 - **Optical fiber:** Light signals (laser diode ON/OFF).
 - **Wireless (4G/5G/Wi-Fi):** Electromagnetic waves.
-
+## Basic Terms
 ### Protocols
 A protocol is a set of rules that determines how data is sent and received over a network. The protocol is just like a language that computers use to talk to each other, ensuring they understand and can respond to each other's messages correctly. Protocols help make sure that data moves smoothly and securely between devices on a network.
 ### Encapsulation
