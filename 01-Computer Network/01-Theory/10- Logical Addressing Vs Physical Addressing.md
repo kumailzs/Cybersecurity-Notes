@@ -16,5 +16,5 @@ When we send/receive on internet :
 $$\text{Internet (Global Routing via IP)} \longrightarrow \text{Local Network (Device Identity via MAC)} \longrightarrow \text{Software Application (Process Identity via Port)}$$
 
 1. **IP Address:** To travel data packet in internet and reached to its destination.
-2. **MAC Address:** To find a specific device in a LAN.
+2. **MAC Address:** To identify a specific device in a LAN.
 3. **Port Address:** To send data into it's specific service(like WhatsApp, Youtube, and etc) in a computer.
