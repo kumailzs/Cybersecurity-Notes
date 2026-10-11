@@ -18,4 +18,4 @@ $$\text{Internet (Global Routing via IP)} \longrightarrow \text{Local Network (D
 
 1. **IP Address:** To travel data packet in internet and reached to its destination.
 2. **MAC Address:** To find a specific device in a LAN.
-3. **Port Address:** To send data into its specific service like Whatsapp, Yotube, and etc.
+3. **Port Address:** To send data into it's specific service(like whatsApp, Youtube, and) in a computer.
