@@ -1,4 +1,4 @@
-## IP Address( Internet Protocol Address )
+## IP Address ( Internet Protocol Address )
 - **Layer :** Network Layer
 - **What's this :** Every nodes (device like mobile phones, routers, laptops, server etc) connected in a network that has its unique identifier number that's called IP Address.
 - **Who's Assign :** It's assign by our adminstator, router and ISP.
@@ -16,7 +16,7 @@
 - **What's Use :** It's only use for communication between nodes in a LAN.
 - **Property :** When physical frame hop (travel one router to another router) so, MAC Address is change in every hop.
 - **Network Device :** Switch/NIC use MAC Address to foward physical frame into network.
-## Port Address ()
+## Port Address ( Port Number )
 - **Layer :** Transport Layer
 - **What's this :** Port Number is unique address of a process of a services in a computer.
 - **Lenth / Format :** It's 16 bits and it's range is 0 to 65535.
@@ -26,3 +26,13 @@
 2. **Port 443:** HTTPS (Secure web traffic)
 3. **Port 21:** FTP (File Transfer)
 4. **Port 25:** SMTP (Email)
+### 📊 Quick Comparison Table
+
+| **Feature**                 | **MAC Address**                | **IP Address**                             | **Port Address**                 |
+| --------------------------- | ------------------------------ | ------------------------------------------ | -------------------------------- |
+| **Layer**                   | Data Link Layer (Layer 2)      | Network Layer (Layer 3)                    | Transport Layer (Layer 4)        |
+| **Type**                    | Physical / Hardware            | Logical                                    | Process / Application Identifier |
+| **Length**                  | 48-bit (Hexadecimal)           | 32-bit (IPv4) / 128-bit (IPv6)             | 16-bit (0 to 65535)              |
+| **Scope**                   | Local Network (LAN)            | Global / End-to-End                        | Inside the Host Machine          |
+| **Changes during routing?** | **Yes** (It changes every hop) | **No** (Source to Destination always same) | **No**                           |
+| **Managed by**              | Manufacturer (Permanent)       | ISP / Network Admin / DHCP                 | Operating System / Application   |
