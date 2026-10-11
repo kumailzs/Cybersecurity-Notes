@@ -1,6 +1,6 @@
 OSI Model (Open System Interconnected Model) is the references model that is used to understand how data travels from one device to another. It divide networking process into 7 different layers and each layer have different function, protocols.
 
-![[Pasted image 20260919145554.png]]
+![Computer Network](../../attachments/Pasted%20image%2020260919145554.png)
 ## Layer 7 (Application Layer)
 it's software based layer and it works on application. It handle the interaction between user and network.
 **Protocols** :
