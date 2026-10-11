@@ -15,13 +15,12 @@ We have already physical address of a device so, why we use logical address?
 When we send/receive on internet :
 
 ![Computer Network](../../attachments/Pasted%20image%2020261012015759.png)
-$$
-\mathrm{Internet\ (Global\ Routing\ via\ IP)}
+
+$$\mathrm{Internet\ (Global\ Routing\ via\ IP)}
 \rightarrow
 \mathrm{Local\ Network\ (Device\ Identity\ via\ MAC)}
 \rightarrow
-\mathrm{Software\ Application\ (Process\ Identity\ via\ Port)}
-$$
+\mathrm{Software\ Application\ (Process\ Identity\ via\ Port)}$$
 
 1. **IP Address:** To travel data packet in internet and reached to its destination.
 2. **MAC Address:** To identify a specific device in a LAN.
