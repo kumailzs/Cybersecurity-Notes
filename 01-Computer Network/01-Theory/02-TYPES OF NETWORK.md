@@ -19,14 +19,14 @@ A network that connect limited/local geographical area in our home, office is ca
 #### Technologies
 WIFI, Ethernet
 #### For Example
-![Computer Network](../../attachments/Pasted%20image%20260915121018.png)
+![Computer Network](../../attachments/Pasted%20image%2020260915121018.png)
 ## MAN (Metropolitan Area Network)
 It's coverage more than LAN and mostly cover City/Campuses
 #### Point Keys
 - Coverage the different location of city/campus.
 - MAN is formed by connecting multiple Local Area Networks (LANs) within a larger geographic area
 #### For Example
-![Computer Network](../../attachments/Pasted%20image%20260915120951.png)
+![Computer Network](../../attachments/Pasted%20image%2020260915120951.png)
 ## WAN (Wide Area Network)
 It's connect large geographical area like different continents, different provinces, different countries
 #### Key Points
@@ -34,4 +34,4 @@ It's connect large geographical area like different continents, different provin
 - Internet is the biggest example of WAN.
 - WAN is formed by connecting multiple Local Area Networks (LANs) and Metropolitan Area Networks (MANs) within a larger geographic area
 #### For Example :
-![Computer Network](../../attachments/Pasted%20image%20260915121933.png)
+![Computer Network](../../attachments/Pasted%20image%2020260915121933.png)
