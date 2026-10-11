@@ -9,7 +9,7 @@
 - **Property :** When data packet travel from source to destination in internet so, ip address is always same (unchanged).
 - **Network Device :** Router use IP Address to foward data packet into internet.
 ## MAC Address (Media Access Control)
- - **Layer :** Data-Link Layer
+- **Layer :** Data-Link Layer
 - **What's this :** MAC Address is the unique identifier assigned to NIC (Network Interface Card).
 - **Who's Assign :** It's assign by manufacture company (like intel, reltek, and etc).
 - **Length / Format :** It's 48 bits and represented in hexadecimal with colon or hyphen e.g 00:1A:2B:3C:4D:5E
