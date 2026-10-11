@@ -11,11 +11,10 @@ These are three reasons :
 ### Heterogeneous Networks (Technology Independence):
 - The Layer 2 frames of different physical technologies (such as Wi-Fi, Ethernet Cable, Fiber, and Cellular 4G/5G) operate differently.
 - The IP Address acts as a universal standard at Layer 3 that connects all these different hardware technologies together..
-## 🔄 End-to-End Packet Flow (Summary)
-
+### End-to-End Packet Flow
 When we send/receive on internet :
 $$\text{Internet (Global Routing via IP)} \longrightarrow \text{Local Network (Device Identity via MAC)} \longrightarrow \text{Software Application (Process Identity via Port)}$$
 
 1. **IP Address:** To travel data packet in internet and reached to its destination.
 2. **MAC Address:** To find a specific device in a LAN.
-3. **Port Address:** To send data into it's specific service(like whatsApp, Youtube, and) in a computer.
+3. **Port Address:** To send data into it's specific service(like WhatsApp, Youtube, and etc) in a computer.
