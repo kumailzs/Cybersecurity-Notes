@@ -1,4 +1,4 @@
-## IP Address(Internet Protocol Address)
+## IP Address( Internet Protocol Address )
 - **Layer :** Network Layer
 - **What's this :** Every nodes (device like mobile phones, routers, laptops, server etc) connected in a network that has its unique identifier number that's called IP Address.
 - **Who's Assign :** It's assign by our adminstator, router and ISP.
@@ -8,7 +8,7 @@
 - **What's Use :** It's use for Gobal internet routing (to deciide path to travel data packet from source to destination). It's also use to travel data packet from source to destination.
 - **Property :** When data packet travel from source to destination in internet so, ip address is always same (unchanged).
 - **Network Device :** Router use IP Address to foward data packet into internet.
-## MAC Address (Media Access Control)
+## MAC Address ( Media Access Control Address)
 - **Layer :** Data-Link Layer
 - **What's this :** MAC Address is the unique identifier assigned to NIC (Network Interface Card).
 - **Who's Assign :** It's assign by manufacture company (like intel, reltek, and etc).
@@ -16,13 +16,13 @@
 - **What's Use :** It's only use for communication between nodes in a LAN.
 - **Property :** When physical frame hop (travel one router to another router) so, MAC Address is change in every hop.
 - **Network Device :** Switch/NIC use MAC Address to foward physical frame into network.
-## Port Address
+## Port Address ()
 - **Layer :** Transport Layer
-- **What's this :** Port Number is unique address that identify the specific process of a services in a computer.
+- **What's this :** Port Number is unique address of a process of a services in a computer.
 - **Lenth / Format :** It's 16 bits and it's range is 0 to 65535.
+- **What's Use :** In our computer multiple services running like you watching a video in Youtube, download something, Whatsapp, etc. so, how identify which data segment is for which application or service so, port address identify which data segment is for which service.
 - **Famous Port Examples :**
 1. **Port 80:** HTTP (Normal web traffic)
 2. **Port 443:** HTTPS (Secure web traffic)
 3. **Port 21:** FTP (File Transfer)
 4. **Port 25:** SMTP (Email)
-- **What's Use :** In our computer multiple services running like Watching a video, Download something, Whatsapp, etc. so, how identify which segment is for which application or service so, port address identify which segment is for which service
