@@ -14,3 +14,11 @@ Phone → Signal Tower → Phone
 ### Diagram :
 
 ![Computer Network](../../attachments/Pasted%20image%2020261012131844.png)
+---
+
+## Related Notes
+- [Types of Network](02-TYPES%20OF%20NETWORK.md)
+
+---
+
+[Contents](../../README.md) | [Next →](02-TYPES%20OF%20NETWORK.md)
