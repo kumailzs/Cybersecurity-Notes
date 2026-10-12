@@ -5,7 +5,7 @@
 - It's assign by our ISP (Internet Service Provider) to identify device in internet.
 - It's globally unique and can be accessed anywhere on the internet.
 - Public IP address are visible to other device that help us to communicate other device.
-## Private IP Adress
+## Private IP Address
 ![Computer Network](../../attachments/Pasted%20image%2020261012225201.png)
 - When device connect to a LAN like, our home, office, schools etc. so, private ip address assign on it.
 - It's used to communicate a device in a LAN.
