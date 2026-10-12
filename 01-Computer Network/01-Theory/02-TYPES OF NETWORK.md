@@ -9,9 +9,7 @@ A personal area network is a computer network for interconnecting electronic dev
 #### Technologies
 NFC, Bluetooth, USB, Personal Hotspot
 #### For Example
-![Computer Network](../../attachments/Pasted%20image%2020260915121018.png)
-]![](Pasted%20image%2020261012125832.png)![](Pasted%20image%2020261012125832.png)
-
+![Computer Network|660](../../attachments/Pasted%20image%2020261012125832.png)
 ## LAN (Local Area Network)
 A network that connect limited/local geographical area in our home, office is called a local area network
 #### Key Points
@@ -29,7 +27,8 @@ It's coverage more than LAN and mostly cover City/Campuses
 - Coverage the different location of city/campus.
 - MAN is formed by connecting multiple Local Area Networks (LANs) within a larger geographic area
 #### For Example
-![Computer Network](../../attachments/Pasted%20image%2020260915120951.png)
+![]()
+![Computer Network](../../attachments/.png)
 ## WAN (Wide Area Network)
 It's connect large geographical area like different continents, different provinces, different countries
 #### Key Points
