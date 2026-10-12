@@ -3,4 +3,4 @@
 ### **Broadcast Domain**
 A network boundary where a broadcast message (such as an ARP request) sent by any device is received by all devices within that same scope.
 
-![Computer Network](../../attachments/Pasted%20image%2020260917134121.png)
+![Computer Network](../../attachments/Pasted%20image%2020261012115655.png)
