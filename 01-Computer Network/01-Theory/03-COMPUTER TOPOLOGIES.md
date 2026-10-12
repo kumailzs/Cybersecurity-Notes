@@ -14,8 +14,8 @@ A devices directed  connect to another device with each other.
 - High Cost & Maintenance because large number of wire needed.
 ### Star Topology
 In this topology, Devices are directly connect with central device( hub/switch ).
-![Computer Network](../../attachments/Pasted%20image%2020260915124929.png)
 
+![Computer Network](../../attachments/Pasted%20image%2020261012123531.png)
 #### Features
 - Point to Point connection.
 - Low Cost than mesh.
