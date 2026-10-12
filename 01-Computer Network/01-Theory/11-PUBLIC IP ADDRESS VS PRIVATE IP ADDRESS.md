@@ -9,4 +9,5 @@
 - It's used to communicate a device in a LAN.
 - It's assign by DCHP or Manually.
 - Private IP Address isn't unique that same ip address used in different network.
-- Mostly Private 
+- Mostly Private IP Address in this range :
+1. `10.0.0.0` to 10.255.255.255`
