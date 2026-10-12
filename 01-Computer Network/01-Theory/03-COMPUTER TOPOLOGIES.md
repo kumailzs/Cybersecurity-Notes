@@ -25,8 +25,8 @@ In this topology, Devices are directly connect with central device( hub/switch )
 - Less security than mesh because data passed through the central device ( switch (High Security), hub(Less Security) ) then its destination device.
 ### Bus Topology
 In this topology, a single backbone thick wire and the device connect with this cable through drop line and tap.
-![Computer Network](../../attachments/Pasted%20image%2020260915131641.png)
 
+![Computer Network](../../attachments/Pasted%20image%2020261012124313.png)
 #### Features
 - Multi Point connection, data passed through all device
 - Low Cost and Easy to maintenance
