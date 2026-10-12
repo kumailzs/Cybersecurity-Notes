@@ -9,8 +9,8 @@ When you search on browser(client) so the request send to the google server and 
 It's decentralized architecture (control, authority, storage doesn't has any single device). Devices are peer (equal) that send and receive data simultaneously each other.
 ### For Example : 
 When you send data through Bluetooth /LAN Cable device directly sharing resources without any centralized device.
-![Computer Network](../../attachments/Pasted%20image%2020260917120532.png)
 
+![Computer Network](../../attachments/Pasted%20image%2020261012120516.png)
 ## Confusion 
 
 > "Look, in the client-server model, there is a centralized device that handles control, authority, and storage, and devices send requests to it. Whereas in peer-to-peer (P2P), there is no centralized system and devices both send and receive data from each other. However, our browser works on the client-server model—when we open Google Drive, the request goes to Google's server, _but_ when we upload something to Google Drive, isn't the browser actually using peer-to-peer because it can both send and receive?"
