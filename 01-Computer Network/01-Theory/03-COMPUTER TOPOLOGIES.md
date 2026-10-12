@@ -56,3 +56,11 @@ The combination of different topologies like mesh, ring, bus, star is called hyb
 - High Reliability
 #### Draw Back
 - High Cost & Complexity because we need routers, switches, hubs to connect other topologies.
+---
+
+## Related Notes
+- [Types of Network](02-TYPES%20OF%20NETWORK.md)
+
+---
+
+[← Previous](02-TYPES%20OF%20NETWORK.md) | [Contents](../../README.md) | [Next →](04-BANDWIDTH%2C%20THROUGHPUT%2C%20LATENCY%2C%20JITTER.md)
