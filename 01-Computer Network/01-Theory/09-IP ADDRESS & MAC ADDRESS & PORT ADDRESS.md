@@ -13,7 +13,7 @@
 - **Network Device :** Router use IP Address to foward data packet into internet.
 ## MAC Address ( Media Access Control Address)
 
-![Computer Network](../../attachments/Pasted%20image%2020261012020341.png)
+![Computer Network](../../attachments/Pasted%20image%2020261012020235.png)
 - **Layer :** Data-Link Layer
 - **What's this :** MAC Address is the unique identifier assigned to NIC (Network Interface Card).
 - **Who's Assign :** It's assign by manufacture company (like intel, reltek, and etc).
