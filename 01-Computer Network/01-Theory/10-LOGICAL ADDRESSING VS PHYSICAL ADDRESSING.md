@@ -25,12 +25,8 @@ $$
 1. **IP Address:** To travel data packet in internet and reached to its destination.
 2. **MAC Address:** To identify a specific device in a LAN.
 3. **Port Address:** To send data into it's specific service(like WhatsApp, Youtube, and etc) in a computer.
-
 ---
-
 ## Related Notes
 - [IP, MAC & Port Address](09-IP%20ADDRESS%20%26%20MAC%20ADDRESS%20%26%20PORT%20ADDRESS.md)
-
 ---
-
 [← Previous](09-IP%20ADDRESS%20%26%20MAC%20ADDRESS%20%26%20PORT%20ADDRESS.md) | [Contents](../../README.md)
