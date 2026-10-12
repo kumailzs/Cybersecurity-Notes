@@ -48,9 +48,8 @@ In this topology, devices are connect in ring shape through single ring shape ca
 - Less Reliability, if backbone cable damaged so entire network down.
 ### Hybrid Topology
 The combination of different topologies like mesh, ring, bus, star is called hybrid topology.
-![[Pasted image .png]]
-![Computer Network](../../attachments/Pasted%20image%2020260915141337.png)
 
+![Computer Network](../../attachments/Pasted%20image%2020261012125258.png)
 #### Features
 - It's give us combine benefits of all topologies.
 - High Flexibility because we can expand it by joint more topologies through routers, switches, hubs
