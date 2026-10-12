@@ -4,9 +4,8 @@ Topology is the physical and logical structure of connection between nodes(PCs, 
 ## Types Of Topologies
 ### Mesh Topology
 A devices directed  connect to another device with each other.
-![](Pasted%20image%2020261012122059.png)
-![Computer Network](../../attachments/Pasted%20image%2020260915124433.png)
 
+![Computer Network](../../attachments/Pasted%20image%2020261012122059.png)
 #### Features
 - High Reliability if one wire damaged so it communicate through another path.
 - Point to Point communication
@@ -58,5 +57,3 @@ The combination of different topologies like mesh, ring, bus, star is called hyb
 - High Reliability
 #### Draw Back
 - High Cost & Complexity because we need routers, switches, hubs to connect other topologies.
-
-
