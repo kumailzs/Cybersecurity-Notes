@@ -57,3 +57,6 @@ The combination of different topologies like mesh, ring, bus, star is called hyb
 - High Reliability
 #### Draw Back
 - High Cost & Complexity because we need routers, switches, hubs to connect other topologies.
+
+
+ab ek new pic heading Star Topology likha ho aur top mai ek laptop aur bottom mai do laptop aur left and right mai ek laptop aur beeche mai Centeral Device ho sab laptop ushi se connect ho ab jo shape banaega jese insaan hai aur thoda zyda gap banana
