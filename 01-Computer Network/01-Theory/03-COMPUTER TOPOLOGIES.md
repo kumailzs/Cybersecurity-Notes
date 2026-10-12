@@ -36,8 +36,8 @@ In this topology, a single backbone thick wire and the device connect with this 
 - Low Reliability, if the single backbone cable damaged so entire communication stopped.
 ### Ring Topology
 In this topology, devices are connect in ring shape through single ring shape cable.
-![Computer Network](../../attachments/Pasted%20image%2020260915132832.png)
 
+![Computer Network](../../attachments/Pasted%20image%2020261012124536.png)
 ### Features
 - Data flow in one direction
 - Token passed system to reduce collision.
