@@ -1,5 +1,5 @@
 ## Public IP Address
 - When device connect on internet so, public ip assign on it.
-- Public IP Address is used to identify a devices within internet and communicate to the other device on internet.
-- It's assign by our ISP(Internet Service Provider).
-- It's globally unique and can be acc
+- Public IP Address is used to communicate the other device on internet.
+- It's assign by our ISP (Internet Service Provider) to identify device in internet.
+- It's globally unique and can be accessed anywhere on the internet
