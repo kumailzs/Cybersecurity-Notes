@@ -1,211 +1,56 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=Cybersecurity%20Notes&fontSize=44&fontColor=ffffff&animation=twinkling&color=7dd3fc" width="100%"/>
+# Cybersecurity Notes
 
-<a href="https://github.com/kumailzs/Cybersecurity-Notes">
-  <img src="https://img.shields.io/github/last-commit/kumailzs/Cybersecurity-Notes?style=for-the-badge&color=7dd3fc&label=LAST+UPDATED" alt="Last Updated"/>
-</a>
-<a href="https://github.com/kumailzs/Cybersecurity-Notes">
-  <img src="https://img.shields.io/github/repo-size/kumailzs/Cybersecurity-Notes?style=for-the-badge&color=7dd3fc&label=REPO+SIZE" alt="Repository Size"/>
-</a>
+**Personal notes from learning cybersecurity from the fundamentals**
 
-<p>
-  <strong>Personal Cybersecurity Learning Notes</strong><br/>
-  Learning • Understanding • Practicing • Documenting
-</p>
+![Last Updated](https://img.shields.io/github/last-commit/kumailzs/Cybersecurity-Notes?style=flat-square&color=7dd3fc&labelColor=1e293b&label=last%20updated)
+![Repo Size](https://img.shields.io/github/repo-size/kumailzs/Cybersecurity-Notes?style=flat-square&color=7dd3fc&labelColor=1e293b&label=repo%20size)
 
 </div>
 
 ---
 
-## About This Repository
+## About
 
-This repository contains my personal notes while learning **Cybersecurity from the fundamentals**.
+This repository holds my notes as I build a technical foundation in cybersecurity, with the long-term goal of moving into penetration testing. The notes are updated continuously as I learn, practice, and revisit concepts.
 
-The goal is to build a strong technical foundation before moving into advanced security concepts and penetration testing.
+The focus is on understanding how things work rather than memorizing commands or tools.
 
-These notes are continuously updated as I learn, practice, and revisit concepts.
+**Method:** learn, take notes, practice, document, review.
 
----
+## Contents
 
-## Current Focus
+| # | Topic | Status |
+|:-:|---|:-:|
+| 1 | [Computer Networking](#computer-networking-notes) | 🟡 In Progress |
+| 2 | Linux Fundamentals & Bash Scripting | ⚪ Next |
+| 3 | Windows Fundamentals & Active Directory Basics | ⚪ Planned |
+| 4 | Python Programming for Cybersecurity | ⚪ Planned |
+| 5 | Web Fundamentals, HTTP, HTML, JavaScript & APIs | ⚪ Planned |
+| 6 | Core Security Concepts & Basic Cloud Fundamentals | ⚪ Planned |
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <strong>01 — Computer Networking</strong><br/><br/>
-      OSI Model • TCP/IP<br/>
-      IPv4 • Subnetting • CIDR<br/>
-      DNS • DHCP • ARP<br/>
-      Ports • Protocols • Routing<br/>
-      Switching • NAT • Network Security
-    </td>
-    <td align="center" width="50%">
-      <strong>02 — Linux + Bash</strong><br/><br/>
-      Coming Next<br/>
-      Filesystem • Permissions<br/>
-      Users & Groups • Processes<br/>
-      SSH • Shell • Bash Scripting
-    </td>
-  </tr>
-</table>
+## Computer Networking Notes
 
----
+| # | Note | Covers |
+|:-:|---|---|
+| 01 | [Computer Network](01-Computer%20Network/01-Theory/01-COMPUTER%20NETWORK.md) | What a network is, why it matters, key points |
+| 02 | [Types of Network](01-Computer%20Network/01-Theory/02-TYPES%20OF%20NETWORK.md) | PAN, LAN, and other network types |
+| 03 | [Network Topologies](01-Computer%20Network/01-Theory/03-COMPUTER%20TOPOLOGIES.md) | Mesh, star, and other topologies with trade-offs |
+| 04 | [Bandwidth, Throughput, Latency & Jitter](01-Computer%20Network/01-Theory/04-BANDWIDTH,%20THROUGHPUT,%20LATENCY,%20JITTER.md) | Core network performance terms |
+| 05 | [Client-Server & Peer-to-Peer Models](01-Computer%20Network/01-Theory/05-CLIENT%20SIDE%20MODEL%20AND%20PEER%20TO%20PEER%20MODEL.md) | How the two models differ, with examples |
+| 06 | [Collision Domain vs Broadcast Domain](01-Computer%20Network/01-Theory/06-COLLISION%20DOMAIN%20VS%20BROADCAST%20DOMAIN.md) | What each domain is and how they differ |
+| 07 | [OSI Model](01-Computer%20Network/01-Theory/07-OSI%20MODEL.md) | All 7 layers |
+| 08 | [TCP/IP Model](01-Computer%20Network/01-Theory/08-TCP%20IP%20MODEL.md) | The 4 layers and their protocols |
+| 09 | [IP, MAC & Port Address](01-Computer%20Network/01-Theory/09-IP%20ADDRESS%20&%20MAC%20ADDRESS%20&%20PORT%20ADDRESS.md) | The three address types, with a comparison table |
+| 10 | [Logical vs Physical Addressing](01-Computer%20Network/01-Theory/10-%20Logical%20Addressing%20Vs%20Physical%20Addressing.md) | Why IP is needed even though MAC exists |
 
-## Learning Roadmap
+## Hands-On Practice
 
-```text
-Computer Networking
-        │
-        ▼
-Linux + Bash Scripting
-        │
-        ▼
-Windows + Active Directory
-        │
-        ▼
- Python Programming 
-        │
-        ▼
-Web Fundamentals + JavaScript
-        │
-        ▼
-Core Security Concepts
-        │
-        ▼
-Vulnerability Assessment
-        │
-        ▼
-Penetration Testing
-        │
-        ▼
-Red Team Fundamentals
-```
+Notes are paired with practice in legal, authorized lab environments such as TryHackMe, so concepts from the theory turn into practical skills.
 
----
+## Links
 
-### Repository Structure
-
-```text
-Cybersecurity-Notes/
-│
-├── 01-Computer Network/
-│   │
-│   ├── Theory/
-│   │   ├── Networking Fundamentals.md
-│   │   ├── OSI Model.md
-│   │   ├── TCP-IP Model.md
-│   │   ├── IP Addressing.md
-│   │   ├── Subnetting.md
-│   │   ├── Protocols.md
-│   │   └── ...
-│   │
-│   ├── TryHackMe Labs/
-│   │
-│   └── Cheatsheet/
-│
-├── 02-Linux/
-│   └── Coming Soon
-│
-├── 03-Windows & Active Directory/
-│   └── Coming Soon
-│
-├── 04-Python/
-│   └── Coming Soon
-│
-├── 05-Web Fundamentals/
-│   └── Coming Soon
-│
-├── 06-Web Security/
-│   └── Coming Soon
-│
-└── README.md
----
-
-## 📚 Learning Method
-
-I follow a simple cycle throughout this repository:
-
-```text
-Learn
-  ↓
-Understand
-  ↓
-Take Notes
-  ↓
-Practice
-  ↓
-Document
-  ↓
-Review
-```
-
-The focus is on **understanding how things work**, rather than simply memorizing commands or tools.
-
----
-
-## Progress
-
-| Topic                    | Status         |
-| ------------------------ | -------------- |
-| Computer Networking      | 🟡 In Progress |
-| Linux                    | ⚪ Upcoming     |
-| Bash Scripting           | ⚪ Upcoming     |
-| Windows                  | ⚪ Upcoming     |
-| Active Directory         | ⚪ Upcoming     |
-| Python                   | ⚪ Upcoming     |
-| Web Fundamentals         | ⚪ Upcoming     |
-| Web Security             | ⚪ Upcoming     |
-| Vulnerability Assessment | ⚪ Upcoming     |
-| Penetration Testing      | ⚪ Upcoming     |
-| Red Team Fundamentals    | ⚪ Upcoming     |
-
----
-
-## 🧪 Hands-On Practice
-
-Theory is only one part of the learning process.
-
-I use legal and authorized lab environments to turn concepts from these notes into practical skills.
-
-```text
-Theory → Lab → Practice → Troubleshoot → Document
-```
-
----
-
-## 🎯 Long-Term Goal
-
-Build a strong cybersecurity foundation and gradually develop the technical skills required for **penetration testing and red team operations**.
-
-This repository is meant to document that journey from the fundamentals onward.
-
----
-
-## 🔗 Related Profiles
-
-<div align="center">
-
-<a href="https://github.com/kumailzs">
-  <img src="https://img.shields.io/badge/GitHub-Profile-7dd3fc?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="https://www.linkedin.com/in/kumailzs">
-  <img src="https://img.shields.io/badge/LinkedIn-Profile-7dd3fc?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://tryhackme.com/p/mr.robert.thm">
-  <img src="https://img.shields.io/badge/TryHackMe-Profile-7dd3fc?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe"/>
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-**Learning the fundamentals. Building the skills.**
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=7dd3fc" width="100%"/>
-
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-1e293b?style=flat-square&logo=github&logoColor=7dd3fc)](https://github.com/kumailzs)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1e293b?style=flat-square&logo=linkedin&logoColor=7dd3fc)](https://www.linkedin.com/in/kumailzs)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-1e293b?style=flat-square&logo=tryhackme&logoColor=7dd3fc)](https://tryhackme.com/p/mr.robert.thm)
