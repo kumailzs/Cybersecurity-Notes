@@ -6,6 +6,7 @@ A actual data packet that can successful transfered across the network channel i
 The time delay/taken( measured in ms ) required for the data packet to travel from source to destination.
 ## Jitter
 The continuously changes in latency over the time when consecutive data packet arrive in different speed (2ms, 5ms, 7ms).
+
 ---
 
 ## Related Notes
