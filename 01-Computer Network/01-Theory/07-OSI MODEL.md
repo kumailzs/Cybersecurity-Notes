@@ -48,3 +48,15 @@ A protocol is a set of rules that determines how data is sent and received over 
 It's process when data send from one device to another so data passed from layer 7 to layer 1 and each layer add there own header is called escapsulation.
 ### Decapsulation
 It's also process when data reached to receiver so it passed from layer 1 to layer 7 is called decapsulation.
+
+---
+
+## Related Notes
+- [TCP/IP Model](08-TCP%20IP%20MODEL.md)
+
+## References
+- [OSI Model – Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+
+---
+
+[← Previous](06-COLLISION%20DOMAIN%20VS%20BROADCAST%20DOMAIN.md) | [Contents](../../README.md) | [Next →](08-TCP%20IP%20MODEL.md)
