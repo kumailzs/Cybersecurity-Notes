@@ -43,3 +43,17 @@
 | **Scope**                   | Local Network (LAN)            | Global / End-to-End                        | Inside the Host Machine          |
 | **Changes during routing?** | **Yes** (It changes every hop) | **No** (Source to Destination always same) | **No**                           |
 | **Managed by**              | Manufacturer (Permanent)       | ISP / Network Admin / DHCP                 | Operating System / Application   |
+
+---
+
+## Related Notes
+- [Logical vs Physical Addressing](10-%20Logical%20Addressing%20Vs%20Physical%20Addressing.md)
+- [OSI Model](07-OSI%20MODEL.md)
+
+## References
+- [RFC 791 – Internet Protocol (IPv4)](https://www.rfc-editor.org/rfc/rfc791)
+- [IANA – Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+
+---
+
+[← Previous](08-TCP%20IP%20MODEL.md) | [Contents](../../README.md) | [Next →](10-%20Logical%20Addressing%20Vs%20Physical%20Addressing.md)
