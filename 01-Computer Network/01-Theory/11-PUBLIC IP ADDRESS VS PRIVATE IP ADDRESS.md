@@ -6,4 +6,5 @@
 - Public IP address are visible to other device that help us to communicate other device.
 ## Private IP Adress
 - When device connect to a LAN like, our home, office, schools etc. so, private ip address assign on it.
-- It's use
+- It's used to communicate a device in a LAN.
+- It's assign by administor 
