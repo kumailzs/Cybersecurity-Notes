@@ -9,7 +9,7 @@ A personal area network is a computer network for interconnecting electronic dev
 #### Technologies
 NFC, Bluetooth, USB, Personal Hotspot
 #### For Example
-![Computer Network](../../attachments/Pasted%20image%2020260915122146.png)
+![Computer Network](../../attachments/Pasted%20image%2020261012125651.png)
 ## LAN (Local Area Network)
 A network that connect limited/local geographical area in our home, office is called a local area network
 #### Key Points
