@@ -4,6 +4,7 @@ Topology is the physical and logical structure of connection between nodes(PCs, 
 ## Types Of Topologies
 ### Mesh Topology
 A devices directed  connect to another device with each other.
+![](Pasted%20image%2020261012122059.png)
 ![Computer Network](../../attachments/Pasted%20image%2020260915124433.png)
 
 #### Features
