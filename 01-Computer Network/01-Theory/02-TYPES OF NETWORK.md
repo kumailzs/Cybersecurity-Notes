@@ -35,4 +35,4 @@ It's connect large geographical area like different continents, different provin
 - Internet is the biggest example of WAN.
 - WAN is formed by connecting multiple Local Area Networks (LANs) and Metropolitan Area Networks (MANs) within a larger geographic area
 #### For Example :
-![Computer Network](../../attachments/Pasted%20image%2020260915121933.png)
+![Computer Network](../../attachments/Pasted%20image%2020261012130522.png)
