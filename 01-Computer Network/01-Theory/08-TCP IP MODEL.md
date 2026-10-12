@@ -52,3 +52,16 @@ This layer handles actual **frame transmission over the local network**:
 | **Ethernet (802.3)** | Wired LAN communication                                 |
 | **Wi-Fi (802.11)**   | Wireless LAN communication                              |
 | **ARP**              | Finds the corresponding MAC address for an IPv4 address |
+---
+
+## Related Notes
+- [OSI Model](07-OSI%20MODEL.md)
+- [IP, MAC & Port Address](09-IP%20ADDRESS%20%26%20MAC%20ADDRESS%20%26%20PORT%20ADDRESS.md)
+
+## References
+- [RFC 1122 – Host Requirements (Communication Layers)](https://www.rfc-editor.org/rfc/rfc1122)
+- [RFC 9293 – Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293)
+
+---
+
+[← Previous](07-OSI%20MODEL.md) | [Contents](../../README.md) | [Next →](09-IP%20ADDRESS%20%26%20MAC%20ADDRESS%20%26%20PORT%20ADDRESS.md)
