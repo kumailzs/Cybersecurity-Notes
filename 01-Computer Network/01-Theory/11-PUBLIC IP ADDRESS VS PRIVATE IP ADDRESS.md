@@ -7,4 +7,6 @@
 ## Private IP Adress
 - When device connect to a LAN like, our home, office, schools etc. so, private ip address assign on it.
 - It's used to communicate a device in a LAN.
-- It's assign by administor 
+- It's assign by DCHP or Manually.
+- Private IP Address isn't unique that same ip address used in different network.
+- Mostly Private 
