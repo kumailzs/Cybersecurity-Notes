@@ -1,6 +1,6 @@
 ## IP Address ( Internet Protocol Address )
 
-![Computer Network](../../attachments/Pasted%20image%2020261012020640.png)
+![](Pasted%20image%2020261012104516.png)
 
 - **Layer :** Network Layer
 - **What's this :** Every nodes (device like mobile phones, routers, laptops, server etc) connected in a network that has its unique identifier number that's called IP Address.
