@@ -3,6 +3,7 @@ The TCP/IP model is a four-layer framework used to describe how data is packetiz
 
 ![Computer Network](../../attachments/Pasted%20image%2020260920121619.png)
 
+![]()
 ## Protocols
 ### 1. Application Layer
 
