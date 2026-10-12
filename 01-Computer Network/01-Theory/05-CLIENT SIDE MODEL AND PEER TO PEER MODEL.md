@@ -28,3 +28,11 @@ Here is the actual difference:
 - **Bidirectional?** Yes, but with no central server or authority in the middle.
 - **Flow:** `Your Device ⇄ Another Device (Direct IP connection)`.
 - **Example:** BitTorrent (torrenting) or local LAN file transfer. No corporate server handles master control or storage; peers share chunks of the file directly with each other.
+---
+
+## Related Notes
+- [Computer Network](01-COMPUTER%20NETWORK.md)
+
+---
+
+[← Previous](04-BANDWIDTH%2C%20THROUGHPUT%2C%20LATENCY%2C%20JITTER.md) | [Contents](../../README.md) | [Next →](06-COLLISION%20DOMAIN%20VS%20BROADCAST%20DOMAIN.md)
