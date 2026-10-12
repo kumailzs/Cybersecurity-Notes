@@ -13,4 +13,4 @@ Phone → Signal Tower → Phone
 ```
 ### Diagram :
 
-![Computer Network](../../attachments/Pasted%20image%2020261012131844.png)![]()
+![Computer Network](../../attachments/Pasted%20image%2020261012131844.png)
