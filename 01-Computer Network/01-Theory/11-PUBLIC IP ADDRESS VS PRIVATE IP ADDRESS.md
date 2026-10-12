@@ -10,4 +10,6 @@
 - It's assign by DCHP or Manually.
 - Private IP Address isn't unique that same ip address used in different network.
 - Mostly Private IP Address in this range :
-1. `10.0.0.0` to 10.255.255.255`
+1. 10.0.0.0 to 10.255.255.255
+2. 172.16.0.0 to 172.31.255.255
+3. `92.168.0.0` to `192.168.255.255
