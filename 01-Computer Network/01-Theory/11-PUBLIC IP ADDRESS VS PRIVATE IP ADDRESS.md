@@ -1,5 +1,5 @@
 ## Public IP Address
-![](Pasted%20image%2020261012225140.png)
+
 - When device connect on internet so, public ip address assign on it.
 - Public IP Address is used to communicate a devices on internet.
 - It's assign by our ISP (Internet Service Provider) to identify device in internet.
