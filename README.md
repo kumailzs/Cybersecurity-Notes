@@ -43,7 +43,7 @@ The focus is on understanding how things work rather than memorizing commands or
 | 07 | [OSI Model](01-Computer%20Network/01-Theory/07-OSI%20MODEL.md) | All 7 layers |
 | 08 | [TCP/IP Model](01-Computer%20Network/01-Theory/08-TCP%20IP%20MODEL.md) | The 4 layers and their protocols |
 | 09 | [IP, MAC & Port Address](01-Computer%20Network/01-Theory/09-IP%20ADDRESS%20&%20MAC%20ADDRESS%20&%20PORT%20ADDRESS.md) | The three address types, with a comparison table |
-| 10 | [Logical vs Physical Addressing](01-Computer%20Network/01-Theory/10-%20Logical%20Addressing%20Vs%20Physical%20Addressing.md) | Why IP is needed even though MAC exists |
+| 10 | [Logical vs Physical Addressing](10-Logical%20Addressing%20Vs%20Physical%20Addressing.md) | Why IP is needed even though MAC exists |
 
 ## Hands-On Practice
 

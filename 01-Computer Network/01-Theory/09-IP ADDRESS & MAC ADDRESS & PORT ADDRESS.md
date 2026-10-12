@@ -47,7 +47,7 @@
 ---
 
 ## Related Notes
-- [Logical vs Physical Addressing](10-%20Logical%20Addressing%20Vs%20Physical%20Addressing.md)
+- [Logical vs Physical Addressing](10-Logical%20Addressing%20Vs%20Physical%20Addressing.md)
 - [OSI Model](07-OSI%20MODEL.md)
 
 ## References
@@ -56,4 +56,4 @@
 
 ---
 
-[← Previous](08-TCP%20IP%20MODEL.md) | [Contents](../../README.md) | [Next →](10-%20Logical%20Addressing%20Vs%20Physical%20Addressing.md)
+[← Previous](08-TCP%20IP%20MODEL.md) | [Contents](../../README.md) | [Next →](10-Logical%20Addressing%20Vs%20Physical%20Addressing.md)
