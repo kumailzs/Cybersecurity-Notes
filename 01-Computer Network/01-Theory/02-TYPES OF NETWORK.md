@@ -36,3 +36,11 @@ It's connect large geographical area like different continents, different provin
 - WAN is formed by connecting multiple Local Area Networks (LANs) and Metropolitan Area Networks (MANs) within a larger geographic area
 #### For Example :
 ![Computer Network](../../attachments/Pasted%20image%2020261012130522.png)
+---
+
+## Related Notes
+- [Network Topologies](03-COMPUTER%20TOPOLOGIES.md)
+
+---
+
+[← Previous](01-COMPUTER%20NETWORK.md) | [Contents](../../README.md) | [Next →](03-COMPUTER%20TOPOLOGIES.md)
