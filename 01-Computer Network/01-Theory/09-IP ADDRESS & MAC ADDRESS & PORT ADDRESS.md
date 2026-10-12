@@ -44,3 +44,4 @@
 | **Scope**                   | Local Network (LAN)            | Global / End-to-End                        | Inside the Host Machine          |
 | **Changes during routing?** | **Yes** (It changes every hop) | **No** (Source to Destination always same) | **No**                           |
 | **Managed by**              | Manufacturer (Permanent)       | ISP / Network Admin / DHCP                 | Operating System / Application   |
+![](Pasted%20image%2020261012103358.png)
