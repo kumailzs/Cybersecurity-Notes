@@ -27,8 +27,7 @@ It's coverage more than LAN and mostly cover City/Campuses
 - Coverage the different location of city/campus.
 - MAN is formed by connecting multiple Local Area Networks (LANs) within a larger geographic area
 #### For Example
-![]()
-![Computer Network](../../attachments/.png)
+![Computer Network|662](../../attachments/Pasted%20image%2020261012130034.png)
 ## WAN (Wide Area Network)
 It's connect large geographical area like different continents, different provinces, different countries
 #### Key Points
