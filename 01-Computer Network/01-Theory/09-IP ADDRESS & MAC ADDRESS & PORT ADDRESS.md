@@ -22,7 +22,7 @@
 - **Network Device :** Switch/NIC use MAC Address to foward physical frame into network.
 ## Port Address ( Port Number )
 
-![Computer Network](../../attachments/Pasted%20image%2020261012021100.png)
+![Computer Network](../../attachments/Pasted%20image%2020261012105030.png)
 - **Layer :** Transport Layer
 - **What's this :** Port Number is unique address of a process of a services in a computer.
 - **Lenth / Format :** It's 16 bits and it's range is 0 to 65535.
