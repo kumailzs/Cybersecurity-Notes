@@ -15,7 +15,6 @@ Broadcast is a communication method in which data is sent to all devices within 
 ### 3. Multicast (One-to-Selected Group)
 Multicast is a communication method in which data is sent to a specific group of receivers that are interested in receiving it.
 **Example:** Delivering a live video stream to members of a multicast group.
-
 ## Comparison
 
 | Type      | Communication                    | Example                |
