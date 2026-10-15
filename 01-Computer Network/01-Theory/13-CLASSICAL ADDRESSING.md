@@ -1,7 +1,7 @@
 # Classical Addressing
 
 - **Classful Addressing:** To distribute IP addresses based on organizational needs, IPv4 was originally divided into 5 classes: **Class A, B, C, D, and E**.
-- **IPv4 Address Size:** An IPv4 address consists of **32 bits** divided into **4 octets** (8 bits each), represented in dotted-decimal format (e.g., `W.X.Y.Z`).
+- **IPv4 Address :** An IPv4 address consists of **32 bits** divided into **4 octets** (8 bits each), represented in dotted-decimal format (e.g., `W.X.Y.Z`).It has two components Network ID and Host ID.
 
 ---
 ## Class A (For Very Large Networks)
