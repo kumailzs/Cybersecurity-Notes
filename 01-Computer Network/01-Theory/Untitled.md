@@ -1,6 +1,6 @@
 # IPv4 Address
 
-## 1. What is an IP Address?
+## What is an IP Address?
 
 An **IP (Internet Protocol) address** is a logical address used to identify a device's network interface and help data reach its destination on a network.
 
@@ -49,32 +49,13 @@ Example:
 
 - The **Host ID** identifies a host or network interface within a network.
 - It helps distinguish devices within that network.
-
 ## 7. Network ID vs Host ID
 
 - **Network ID:** Identifies the network.
-    
 - **Host ID:** Identifies a host within that network.
-    
 
 The division between the Network ID and Host ID depends on the network prefix or subnet mask.
 
 We cannot always determine this division by looking at the IPv4 address alone.
 
-## 8. Important Points
-
-1. IPv4 stands for Internet Protocol Version 4.
-    
-2. An IPv4 address contains 32 bits.
-    
-3. An IPv4 address has four octets.
-    
-4. Each octet contains 8 bits.
-    
-5. Each octet has a value from 0 to 255.
-    
-6. Network ID identifies the network.
-    
-7. Host ID identifies a host within the network.
-    
-8. A subnet mask or CIDR prefix helps determine the Network ID and Host ID boundary.
+#
