@@ -52,7 +52,7 @@ Example:
 - **Network ID:** Identifies the network.
 - **Host ID:** Identifies a host within that network.
 
-The division between the Network ID and Host ID depends on the network prefix or subnet mask.
+The division between the **Network ID** and **Host ID** depends on the network prefix or subnet mask.
 
 We cannot always determine this division by looking at the IPv4 address alone.
 
