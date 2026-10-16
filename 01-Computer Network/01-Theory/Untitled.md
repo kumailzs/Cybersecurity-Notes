@@ -41,19 +41,14 @@ Therefore, the possible values range from 0 to 255.
 Example:
 - `192.168.1.10` — valid IPv4 format.
 - `192.168.1.256` — invalid because 256 is outside the allowed range for an octet.
-    
-
 ## 5. Network ID
 
-The **Network ID** identifies the network to which an IP address belongs.
-
-It helps determine which network a device is part of.
-
+- The **Network ID** identifies the network to which an IP address belongs.
+- It helps determine which network a device is part of.
 ## 6. Host ID
 
-The **Host ID** identifies a host or network interface within a network.
-
-It helps distinguish devices within that network.
+- The **Host ID** identifies a host or network interface within a network.
+- It helps distinguish devices within that network.
 
 ## 7. Network ID vs Host ID
 
