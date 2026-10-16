@@ -60,4 +60,4 @@ We cannot always determine this division by looking at the IPv4 address alone.
 
 ## Subnet Mask
 
-- It;
+A subnet mask is a 32-bit value used with an IPv4 address to split it into a network part and a host part. In dotted-decimal form it looks like 255.255.255.0 (which is the same as CIDR /24).
