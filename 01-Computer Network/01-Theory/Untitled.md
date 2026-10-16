@@ -1,25 +1,19 @@
-# IPv4 Address – Notes
+# IPv4 Address
 
 ## 1. What is an IP Address?
 
 An **IP (Internet Protocol) address** is a logical address used to identify a device's network interface and help data reach its destination on a network.
 
-**IPv4** stands for Internet Protocol Version 4.
+IPV4 is the type of IP Address. It stands for Internet Protocol Version 4.
 
 Example: `192.168.1.10`
 
 ## 2. Structure of an IPv4 Address
-
 - An IPv4 address contains **32 bits**.
-    
 - It is divided into **4 groups**.
-    
 - Each group contains **8 bits**.
-    
 - Each 8-bit group is called an **octet**.
-    
 - Dots (`.`) separate the four octets.
-    
 
 Example: `192.168.1.10`
 
